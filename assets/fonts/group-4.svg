@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="687" height="235" viewBox="0 0 687 235">
+    <defs>
+        <linearGradient id="prefix__b" x1="38.395%" x2="84.29%" y1="30.8%" y2="103.122%">
+            <stop offset="0%" stop-color="#00C1F1"/>
+            <stop offset="100%" stop-color="#FFF"/>
+        </linearGradient>
+        <linearGradient id="prefix__c" x1="3.882%" x2="73.781%" y1="14.797%" y2="90.707%">
+            <stop offset="0%" stop-color="#00C1F1"/>
+            <stop offset="100%" stop-color="#FFF"/>
+        </linearGradient>
+        <filter id="prefix__a" width="106.9%" height="119.4%" x="-3.5%" y="-9.7%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="8"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.75866284 0 0 0 0 0.745596381 0 0 0 0 0.745596381 0 0 0 0.24 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" stroke-linecap="square" filter="url(#prefix__a)" transform="translate(14 -143)">
+        <g>
+            <path stroke="url(#prefix__b)" d="M0 27c232.236 119.309 387.156 191.322 464.758 216.04 77.603 24.717 173.017 32.439 286.242 23.164" transform="translate(-91 90)"/>
+            <path stroke="url(#prefix__c)" d="M0 0c153.293 112.828 268.74 181.622 346.343 206.384C423.946 231.146 558.83 242.228 751 239.63" transform="translate(-91 90)"/>
+        </g>
+    </g>
+</svg>

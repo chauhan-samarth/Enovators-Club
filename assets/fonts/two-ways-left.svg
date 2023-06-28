@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="366px" height="198px" viewBox="0 0 366 198" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>622D7680-C572-4E59-A369-CBED1ED0BD19</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="38.3949298%" y1="30.7998132%" x2="84.2899131%" y2="103.121822%" id="linearGradient-1">
+            <stop stop-color="#00C1F1" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="3.8818025%" y1="14.7968125%" x2="73.7811839%" y2="90.7065484%" id="linearGradient-2">
+            <stop stop-color="#00C1F1" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="2-ways" transform="translate(-338.000000, -360.000000)" fill-rule="nonzero">
+            <g id="Group-2" transform="translate(112.000000, 360.000000)">
+                <g id="Group-5-Copy-2">
+                    <g id="Group-4" transform="translate(200.000000, -45.000000)">
+                        <path d="M0,24 C136.303331,131.137383 227.228149,195.804049 272.774456,218 C318.320762,240.195951 374.320762,247.129735 440.774456,238.801351" id="Line" stroke="url(#linearGradient-1)"></path>
+                        <path d="M-2.84217094e-14,9.9475983e-14 C89.9699975,101.137383 157.728149,162.804049 203.274456,185 C248.820762,207.195951 327.987429,217.129735 440.774456,214.801351" id="Line-Copy" stroke="url(#linearGradient-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

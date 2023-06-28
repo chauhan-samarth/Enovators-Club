@@ -1,0 +1,2 @@
+d=new Date();var cache_key=d.getDate()+"-"+d.getMonth()+"-"+d.getFullYear()+"-"+d.getHours()
+var swUrl='https://app.wigzo.com/wigzo_sw.js';importScripts(swUrl+"?orgtoken=16abddfe-5250-450f-9df6-e879dcdbd1cf&cache_key="+cache_key);
