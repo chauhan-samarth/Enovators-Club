@@ -32,7 +32,7 @@
   content: "";
   width: 120px;
   height: 400px;
-  background-image: url(https://www.enovators.in/assets/images/auth-left-shape.webp);
+  background-image: url(/assets/images/auth-left-shape.webp);
   background-size: cover;
   position: absolute;
   top: 25vh;
@@ -42,7 +42,7 @@
   content: "";
   width: 120px;
   height: 366px;
-  background-image: url(https://www.enovators.in/assets/images/bg_right.png);
+  background-image: url(/assets/images/bg_right.png);
   background-size: cover;
   position: absolute;
   top: 24vh;
