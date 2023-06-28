@@ -1090,11 +1090,6 @@ iframe {
   width: 100%;
   height: auto;
 }
-.main_wrapper--new-start .cats-table .cats-items > a:hover {
-  border: 5px solid rgb(203 213 225 / var(--tw-text-opacity));
-  transition: 0.2;
-  --tw-text-opacity: 1;
-}
 [class*="col-"] {
   align-items: center;
   padding: 15px;
@@ -1458,18 +1453,6 @@ b {
 .banner-link span {
   font-weight: 800;
 }
-button {
-  outline: 0;
-  border: 1px solid #13b3dd;
-  box-shadow: inset 0 0 0 1px #91dcef;
-  height: 40px;
-  background: 0 0;
-  color: #13b3dd;
-  border-radius: 4px;
-  font: 20px/36px Montserrat, "Helvetica Neue", Helvetica, sans-serif;
-  padding: 0 10px;
-  cursor: pointer;
-}
 .icon {
   display: inline-block;
   overflow: hidden;
@@ -1778,6 +1761,30 @@ html[lang="fr-fr"] .top-block-v2 .top_block_content h1 {
   box-sizing: border-box;
 }
 .btn-dark:hover {
+  background-color: #283953;
+  color: #fff !important;
+}
+.hide{
+  display: none;
+}
+.btn-more {
+  --tw-text-opacity: 1;
+  background-color: rgb(148 163 184 / var(--tw-text-opacity));
+  color: #000 !important;
+  font-family: Enovators;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  margin-left: 10px;
+  padding: 12px 28px;
+  min-width: 120px;
+  min-height: 36px;
+  border-radius: 10px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.btn-more:hover {
   background-color: #283953;
   color: #fff !important;
 }
