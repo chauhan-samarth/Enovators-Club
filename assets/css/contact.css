@@ -24,10 +24,6 @@
 .span.name {
   text-align: center;
 }
-.main_wrapper--new-start .top-panel.transparent-unlogged--new {
-  --tw-bg-opacity: 1;
-  background-color: rgb(15 23 42/var(--tw-bg-opacity));
-}
 .container1:before {
   content: "";
   width: 120px;
