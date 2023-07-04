@@ -2277,7 +2277,7 @@ html[lang="fr-fr"] .top-block-v2 .top_block_content h1 {
 }
 .main_wrapper--new-start .cats-table .cats-items > a {
   width: 280px;
-  height: 310px;
+  height: 350px;
   border-radius: 16px;
   background: #182029;
   clip-path: polygon(100% 0, 100% calc(100% - 25px), calc(100% - 25px) 100%, 0 100%, 0 0);
@@ -5189,6 +5189,7 @@ to {
   background-size: cover;
 }
 .img-main {
+  background-color: #fff;
   height: 220px;
   width: 250px;
   object-fit: cover;
