@@ -655,7 +655,6 @@ html[lang="es-es"] .footer .center_wrapper .footer-d > p {
     flex-direction: column;
     flex-grow: 1;
     height: calc(100vh - 74px);
-    overflow-y: auto;
     min-height: 90vh;
   }
   .user_block.active .logged .menu_user {
@@ -1237,7 +1236,6 @@ body {
   line-height: 1;
   min-width: 320px;
   background: #f2f2f2;
-  overflow-x: hidden;
 }
 ul {
   list-style: none;
@@ -2825,9 +2823,6 @@ html[lang="fr-fr"] .top-block-v2 .top_block_content h1 {
   }
   .cats-table h2 {
     margin: 0 0 40px 0;
-  }
-  .cats-table {
-    padding: 50px 0;
   }
 }
 @media screen and (max-width: 639px) {

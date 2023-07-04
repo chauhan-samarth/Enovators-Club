@@ -6,10 +6,12 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     popupScreen.classList.add("active");
     document.getElementById("body").style.overflow = "hidden";
-}, 0);
+    document.getElementById("body").style.opacity = "";
+}, 1000);
 });
 closeButton.addEventListener("click", () => {
   popupScreen.classList.remove("active");
-  document.getElementById("body").style.overflow = "scroll";
+  document.getElementById("body").style.overflow = "auto";
+  document.getElementById("body").style.opacity = "";
 });
 
