@@ -2256,7 +2256,7 @@ html[lang="fr-fr"] .top-block-v2 .top_block_content h1 {
   -webkit-flex-wrap: wrap;
   font-size: 18px;
   position: relative;
-  z-index: 1;
+  
   background: #fff;
 }
 .main-title{
@@ -3020,6 +3020,28 @@ html[lang="fr-fr"] .top-block-v2 .top_block_content h1 {
   background-color: #3cbcfc;
   color: #fff !important;
 }
+
+.close-button {
+  font-family: Enovators;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  --tw-bg-opacity: 1;
+  background-color: rgb(14 165 233 / var(--tw-bg-opacity));
+  color: #fff !important;
+  margin-left: 10px;
+  padding: 12px 28px;
+  min-width: 120px;
+  min-height: 36px;
+  border-radius: 10px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.close-button:hover {
+  background-color: #3cbcfc;
+  color: #fff !important;
+}
 .cats-table.logo-landing {
   background: #eef3f4;
 }
@@ -3223,7 +3245,7 @@ html[lang="fr-fr"] .top-block-v2 .top_block_content h1 {
   left: 0;
   width: 100%;
   height: 625px;
-  z-index: 1;
+  
 }
 .line5 {
   position: absolute;
@@ -3231,7 +3253,7 @@ html[lang="fr-fr"] .top-block-v2 .top_block_content h1 {
   left: 0;
   width: 100%;
   height: 750px;
-  z-index: 1;
+  
 }
 .top-title h1 {
   font-size: 26px;
@@ -3786,7 +3808,7 @@ button.button-transparent:disabled {
   display: block;
   top: -125px;
   position: relative;
-  z-index: 1;
+  
 }
 .video-background {
   position: absolute;
@@ -5167,7 +5189,7 @@ to {
 .main_wrapper--new-start .top-block-v2 {
   position: relative;
   height: auto !important;
-  z-index: 1;
+  
   width: 100%;
 }
 .main_wrapper--new-start .top_block_content-bg {
@@ -5188,6 +5210,68 @@ to {
   background-position: center;
   background-size: cover;
 }
+.bb:hover{
+  box-shadow: inset 0 0 0 1px rgb(14 165 233);
+}
+.countdown {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.countdown div{
+    position: relative;
+    width: 60px;
+    height: 50px;
+    line-height: 50px;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    background:var(--darker-black);
+    color:#fff;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    margin: 0 15px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.countdown div:before{
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background: var(--primary-purple);
+    color:var(--text-white);
+    font-size: 15px;
+    line-height: 35px;
+    font-weight: 700;
+}
+
+@media (max-width: 992px) {
+  .countdown div:before {
+    font-size: 0.4em;
+  }
+}
+
+.countdown div#day:before{
+    content: 'Days';
+}
+
+.countdown div#hour:before{
+    content: 'Hours';
+}
+
+.countdown div#minute:before{
+    content: 'Minutes';
+}
+
+.countdown div#second:before{
+    content: 'Seconds';
+}
+
 .img-main {
   background-color: #fff;
   height: 220px;
@@ -5255,7 +5339,7 @@ to {
       top: -195px;
     }
     .main_wrapper--new-start .cats-table.v2::after {
-      z-index: 1;
+      
       bottom: 20px;
       height: 250px;
     }
@@ -5271,7 +5355,7 @@ to {
         background-repeat: no-repeat;
       }
       .main_wrapper--new-start .top_block_content {
-        background: url("/assets/images/unit.png") 600px 50px / 600px 550px no-repeat;
+        background: url("/assets/images/unit.png") 600px 50px / 600px 500px no-repeat;
         opacity: 1;
       }
       .main_wrapper--new-start .top_block_content::after {
