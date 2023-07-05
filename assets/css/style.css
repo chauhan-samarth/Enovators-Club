@@ -5350,7 +5350,7 @@ to {
         background-repeat: no-repeat;
       }
       .main_wrapper--new-start .top_block_content {
-        background: url("/assets/images/unit.png") 600px 50px / 600px 500px no-repeat;
+        background: url("/assets/images/unit.webp") 600px 50px / 600px 500px no-repeat;
         opacity: 1;
       }
       .main_wrapper--new-start .top_block_content::after {

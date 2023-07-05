@@ -33,7 +33,7 @@ video::-webkit-media-controls-time-remaining-display {
   overflow: hidden;
   z-index: 99999999;
   position: fixed;
-  background-image: url(/assets/images/slider_bg.jpg);
+  background-image: url(/assets/images/slider_bg.webp);
   backdrop-filter: blur(10px);
   width: 100%;
   height: 100vh;
