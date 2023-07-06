@@ -2590,7 +2590,7 @@ html[lang="fr-fr"] .top-block-v2 .top_block_content h1 {
     margin-right: auto;
   }
   .top-block-v2 .top_block_content {
-    padding-top: 125px;
+    padding-top: 50px;
   }
   .top-block-v2 .top_block_content h1 {
     font-size: 44px;
@@ -3784,6 +3784,7 @@ button.button-transparent:disabled {
 @media only screen and (max-width: 767px) {
   .top-panel.transparent-unlogged--new .center_wrapper {
     min-height: 74px;
+    margin-bottom: 10px;
   }
 }
 .center_wrapper_banner:after {
