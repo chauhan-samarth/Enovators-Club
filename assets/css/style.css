@@ -1656,7 +1656,7 @@ html[lang="fr-fr"]
 }
 .main_wrapper--new-start .top_block_content {
   margin: 0 auto;
-  padding-top: 20px;
+  padding-top: 120px;
 }
 .main_wrapper--new-start .top-block-v2 .top_block_content h1 {
   padding: 0;
@@ -2184,6 +2184,7 @@ html[lang="fr-fr"] .top-block-v2 .top_block_content h1 {
 }
 .main_wrapper--new-start .top-panel.transparent-unlogged--new{
   background: #182029;
+  position: fixed;
 }
 .cats-table {
   text-align: center;
@@ -2847,7 +2848,7 @@ html[lang="fr-fr"] .top-block-v2 .top_block_content h1 {
     padding: 50px 0 0 0;
   }
   .main_wrapper--new-start .top-block-v2.screen_item {
-    padding: 0;
+    padding: 24px 0 0 0;
   }
   .top-block-v2 .top_block_content > p {
     margin: 0 40px 57px 40px;
@@ -5353,7 +5354,7 @@ to {
         background-repeat: no-repeat;
       }
       .main_wrapper--new-start .top_block_content {
-        background: url("/assets/images/unit.webp") 600px 50px / 600px 500px no-repeat;
+        background: url("/assets/images/unit.webp") 600px 160px / 600px 500px no-repeat;
         opacity: 1;
       }
       .main_wrapper--new-start .top_block_content::after {
