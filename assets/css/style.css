@@ -2725,7 +2725,7 @@ html[lang="fr-fr"] .top-block-v2 .top_block_content h1 {
     position: absolute;
     top: 0;
     right: inherit;
-    z-index: 99;
+    z-index: 9999999;
     text-align: left;
   }
   .top-panel.transparent-unlogged #menu.new_hp ul {
