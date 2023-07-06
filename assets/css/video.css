@@ -31,7 +31,7 @@ video::-webkit-media-controls-time-remaining-display {
 
 .popup-screen{
   overflow: hidden;
-  z-index: 99999999;
+  z-index: 9;
   position: fixed;
   background-image: url(/assets/images/slider_bg.webp);
   backdrop-filter: blur(10px);
@@ -80,7 +80,7 @@ border-radius: 20px ;
     font-family: Enovators;
     font-size: 30px;
     line-height: 40px;
-    font-weight: 600;
+    font-weight: 100;
     margin-bottom: 20px;
     box-sizing: border-box;
 }
