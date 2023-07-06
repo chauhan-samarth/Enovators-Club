@@ -2731,7 +2731,7 @@ html[lang="fr-fr"] .top-block-v2 .top_block_content h1 {
   }
   .top-panel.transparent-unlogged #menu.new_hp ul {
     top: 73px;
-    opacity: 0;
+    opacity: 1;
   }
   .top-panel.transparent-unlogged #menu.new_hp > div > ul > li {
     display: block;
