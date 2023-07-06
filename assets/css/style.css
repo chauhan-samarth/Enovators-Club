@@ -383,10 +383,6 @@ html[lang="fr-fr"] .user_block.unlogged.logged-menu .links li:last-child {
   border-bottom: 3px solid transparent;
   height: 49px;
 }
-#menu .user_block,
-#menu_2 .user_block {
-  display: none;
-}
 #menu > div,
 #menu_2 > div {
   position: relative;
@@ -717,10 +713,6 @@ html[lang="es-es"] .footer .center_wrapper .footer-d > p {
     padding: 0 22px 0 18px;
     display: block;
     font-size: 22px;
-  }
-  #menu,
-  .user_block .links {
-    display: none;
   }
   .mobile_menu.active {
     left: 0;
@@ -2648,9 +2640,6 @@ html[lang="fr-fr"] .top-block-v2 .top_block_content h1 {
     border-width: 0;
     height: 1200px;
   }
-  .transparent-unlogged--new .user_block {
-    display: none;
-  }
   .top-panel.transparent-unlogged #menu.new_hp > div {
     position: static;
   }
@@ -2828,9 +2817,6 @@ html[lang="fr-fr"] .top-block-v2 .top_block_content h1 {
   }
 }
 @media screen and (max-width: 639px) {
-  .transparent-unlogged--new .user_block {
-    display: none;
-  }
   .top-block-v2 .top_block_content h1 span {
     display: inline;
   }
@@ -4088,9 +4074,6 @@ button.button-transparent:disabled {
   }
   .social_links li {
     margin: 0 0 0 30px;
-  }
-  #menu {
-    display: none !important;
   }
 }
 @media only screen and (min-width: 1025px) {
