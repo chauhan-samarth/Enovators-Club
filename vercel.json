@@ -2,8 +2,8 @@
   "cleanUrls": true,
     "redirects": [
       { 
-        "source": "/view-source",
-        "destination": "https://github.com/vercel/vercel", 
+        "source": "/brochure",
+        "destination": "#", 
         "permanent": true
       }
     ]
