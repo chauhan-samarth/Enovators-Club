@@ -3,7 +3,7 @@
     "redirects": [
       { 
         "source": "/brochure",
-        "destination": "https://drive.google.com/file/d/1O1dcgx8nUbFlYR3OWvojh04Hm55Axxym/view", 
+        "destination": "./coming-soon", 
         "permanent": true
       }
     ]
