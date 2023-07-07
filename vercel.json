@@ -3,7 +3,7 @@
     "redirects": [
       { 
         "source": "/brochure",
-        "destination": "#", 
+        "destination": "", 
         "permanent": true
       }
     ]
