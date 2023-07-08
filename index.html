@@ -35,6 +35,17 @@
     <meta name="twitter:title" content="Enovators | Home" />
     <meta name="twitter:description"
         content="Enovators is the IT Club of Vishwa Bhararti Public School, Noida - Founded in 2003." />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js" ></script>
+        <script>
+        $(document).ready(function(){
+        if (!Cookies.get('alert')) { setTimeout(function(){
+        $('.popup-screen').css('display','flex');
+        Cookies.set('alert', true, { expires: 1 });
+        }, 10000);
+        }
+        });
+        </script>
 
 </head>
 
@@ -61,47 +72,47 @@
         <div id="banner-servers-update">
         </div>
         <div class="top-panel transparent-unlogged transparent-unlogged--new" id="navbar">
-                <div class="center_wrapper">
+            <div class="center_wrapper">
 
-                    <a href="#">
-                        <div class="logo">
-                            <h1 class="logotype">Enovators</h1>
-                            <div class="decorations"></div>
-                        </div>
-                    </a>
-                    <div id="menu" class="new_hp mobile_menu">
-                        <div>
-                            <i id="mob_icon" class="svg-icon icon-menu mmenu-ico">
-                                <span class="mob_icon--line fl"></span>
-                                <span class="mob_icon--line sl"></span>
-                                <span class="mob_icon--line tl"></span>
-                            </i>
-                            <ul>
-                                <li><a href="#" class="cust">HOME</a></li>
-                                <li><a href="./about.html">ABOUT</a></li>
-                                <li><a href="./core.html">CORE</a></li>
-                                <li><a href="./rules.html">RULES</a></li>
-                                <li><a href="./contact.html">CONTACT</a></li>
-                                <li class="hidden_item"><a href="./result.html">Result</a></li>
-                                <li class="hidden_item"><a href="./register.html">Register</a></li>
-                            </ul>
-                        </div>
+                <a href="#">
+                    <div class="logo">
+                        <h1 class="logotype">Enovators</h1>
+                        <div class="decorations"></div>
                     </div>
-                    <div class="user_block unlogged logged-menu">
-                        <ul class="links">
-                            <li>
-                                <a class="btn-dark" href="./result.html">RESULT</a>
-                            </li>
-                            <li>
-                                <a class="btn-main" href="./register.html">REGISTER</a>
-                            </li>
+                </a>
+                <div id="menu" class="new_hp mobile_menu">
+                    <div>
+                        <i id="mob_icon" class="svg-icon icon-menu mmenu-ico">
+                            <span class="mob_icon--line fl"></span>
+                            <span class="mob_icon--line sl"></span>
+                            <span class="mob_icon--line tl"></span>
+                        </i>
+                        <ul>
+                            <li><a href="#" class="cust">HOME</a></li>
+                            <li><a href="./about.html">ABOUT</a></li>
+                            <li><a href="./core.html">CORE</a></li>
+                            <li><a href="./rules.html">RULES</a></li>
+                            <li><a href="./contact.html">CONTACT</a></li>
+                            <li class="hidden_item"><a href="./result.html">Result</a></li>
+                            <li class="hidden_item"><a href="./register.html">Register</a></li>
                         </ul>
                     </div>
-
                 </div>
+                <div class="user_block unlogged logged-menu">
+                    <ul class="links">
+                        <li>
+                            <a class="btn-dark" href="./result.html">RESULT</a>
+                        </li>
+                        <li>
+                            <a class="btn-main" href="./register.html">REGISTER</a>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
-            
-        
+        </div>
+
+
 
         <div class="top-block-v2 screen_item"
             style="background-image:url(./assets/images/slider_bg.webp); background-size: cover;">
@@ -254,7 +265,7 @@
             </div>
 
         </div>
-        
+
         <div class="cats-table v2 screen_item">
             <div class="center_wrapper">
                 <h2 class="main-title">LOCATION</h2>
