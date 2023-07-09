@@ -2218,7 +2218,6 @@ html[lang="fr-fr"] .top-block-v2 .top_block_content h1 {
   -webkit-justify-content: center;
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
-  margin: 0 0 70px 0;
 }
 .cats-table .cats-items > a,
 .cats-table .cats-items > div {
@@ -5732,11 +5731,23 @@ a:focus {
   font-weight: 500!important;
 }
 .event-info{
-  text-transform: uppercase;
   font-size: 22px!important; 
   --tw-text-opacity: 1!important;
   color: rgb(148 163 184/var(--tw-text-opacity))!important; 
   line-height: 200%!important;
+}
+.event-title{
+  text-transform: uppercase;
+  margin-bottom: 10px!important;
+  font-weight: 800!important;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 30px!important;
+  margin: 0 0;
+  font-family: 'Barlow', sans-serif!important;
+}
+.txt{
+  color: #00c1f1;
 }
 
 
