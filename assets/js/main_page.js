@@ -269,3 +269,5 @@ $(document).ready(function(){
         }, 5000);
     }
 });
+
+document.oncontextmenu = new Function("return false");
