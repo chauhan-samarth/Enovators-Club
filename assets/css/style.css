@@ -1269,7 +1269,7 @@ html {
   content: "\e948";
 }
 .main_wrapper.main_wrapper--new-start {
-  background-color: #10181f;
+  background-color: #141c24;
   position: relative;
   overflow: hidden;
 }
@@ -1328,7 +1328,7 @@ html {
 body {
   font: 14px/16px Montserrat, "Helvetica Neue", Helvetica, sans-serif;
   min-width: 320px;
-  background-color: #10181f;
+  background-color: #141c24;
   color: #252737;
 }
 b {
@@ -2245,8 +2245,10 @@ html[lang="fr-fr"] .top-block-v2 .top_block_content h1 {
     font-weight: 800!important;
     letter-spacing: 1px;
     text-align: center;
-    margin: 0 0;
     font-family: 'Barlow', sans-serif!important;
+    font-size: 50px;
+    color: #fff;
+    line-height: 100%;
 }
 .main-title::after {
   content: "";
@@ -2256,6 +2258,7 @@ html[lang="fr-fr"] .top-block-v2 .top_block_content h1 {
   width: 100px;
   height: 5px;
   margin: 20px auto 0;
+  margin-bottom: 20px;
 }
 .main_wrapper--new-start .cats-table .cats-items > a {
   width: 280px;
