@@ -2218,6 +2218,9 @@ html[lang="fr-fr"] .top-block-v2 .top_block_content h1 {
   .main_wrapper--new-start .top-block-v2 .top_block_content h1{
     margin-top: 50px!important;
   }
+  .img-logo{
+    width: 100%!important;
+  }
 
 }
 
