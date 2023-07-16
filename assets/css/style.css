@@ -2214,6 +2214,13 @@ html[lang="fr-fr"] .top-block-v2 .top_block_content h1 {
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
 }
+@media screen and (max-width: 628px){
+  .main_wrapper--new-start .top-block-v2 .top_block_content h1{
+    margin-top: 50px!important;
+  }
+
+}
+
 .cats-table .cats-items > a,
 .cats-table .cats-items > div {
   width: 280px;
