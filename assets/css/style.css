@@ -5762,7 +5762,7 @@ a:focus {
 }
 
 .table-responsive{
-  padding: 30px;
+  padding: 0 30px 70px 30px;
   border-radius: 20px!important;
 }
 .table-responsive table {
@@ -5811,7 +5811,7 @@ div#table-header {
   color: #fff;
 }
 .data{
-  max-width: 1040px;
+  max-width: 940px;
   margin-left: auto;
   margin-right: auto;
 }
