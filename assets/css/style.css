@@ -1100,7 +1100,6 @@ body {
   --tw-bg-opacity: 1;
   background-color: #182029;
   min-height: 100px;
-  padding: 20px 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1157,7 +1156,7 @@ body {
   color: rgb(148 163 184 / var(--tw-text-opacity));
   margin: 15px 0 10px 0;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 500;
   font-family: Fredoka-semi;
   text-transform: capitalize;
