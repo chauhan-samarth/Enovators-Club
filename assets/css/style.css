@@ -113,7 +113,7 @@ video {
 ul {
   list-style: none;
 }
-@font-face {
+@font-face {  
   font-family: OwnHand;
   src: url(/assets/fonts/OwnHand.ttf);
 }
@@ -5759,6 +5759,58 @@ a:focus {
   margin: 0 0;
   font-family: 'Barlow', sans-serif!important;
 }
+
+.table-responsive{
+  padding: 30px;
+  border-radius: 20px!important;
+}
+.table-responsive table {
+  border: 0;
+  border-radius: 20px!important;
+  width: 100%;
+  margin-left: 0%;
+  color: #fff;
+  font-family: 'Roboto', savbps-serif!important;
+  line-height: 1.5;
+}
+
+.table-responsive table thead {
+  background: #1E293B;
+  color: #fff;
+  height: 50px;
+  text-align: center;
+  align-self: center;
+  font-size: 15px;
+}
+
+.table-responsive table thead th, .table-responsive table tbody td {
+  padding: 8px;
+  border: 2px solid #34353d;
+  font-family: Fredoka;
+  font-size: 1rem!important;
+  line-height: 1.5;
+}
+table a:hover {
+  color: inherit;
+}
+#table-body .row .col {
+  padding: .6rem;
+  width: 14%;
+}
+
+#table-body .row {
+  margin-bottom: 0;
+}
+
+#calendar-table {
+  text-align: center;
+}
+div#table-header {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+
 
 
 
