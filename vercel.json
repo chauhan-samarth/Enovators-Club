@@ -3,7 +3,7 @@
     "redirects": [
       { 
         "source": "/brochure",
-        "destination": "./coming-soon", 
+        "destination": "./assets/2k23-Brochure.pdf", 
         "permanent": true
       }
     ]
