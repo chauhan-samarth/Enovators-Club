@@ -5351,7 +5351,8 @@ to {
         background-repeat: no-repeat;
       }
       .main_wrapper--new-start .top_block_content {
-        background: url("/assets/images/unit.webp") 700px 200px / 500px 400px no-repeat;
+        background: url("/assets/images/unit.webp") 700px 180px / 500px 400px no-repeat;
+        padding-bottom: 30px;
         opacity: 1;
       }
       .main_wrapper--new-start .top_block_content::after {
