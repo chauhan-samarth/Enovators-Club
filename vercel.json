@@ -5,6 +5,12 @@
       "source": "/discord",
       "destination": "https://discord.com/invite/feMqVzSC",
       "permanent": true
+    },
+    {
+      "source": "/duty-list-2k23-latest",
+      "destination": "https://docs.google.com/document/d/1Pqa1zwsH4O0uIKEbI10-TzgP4WaHvASfmFZz19PI0EY/edit?usp=sharing",
+      "permanent": true
     }
+
   ]
 }
