@@ -15,6 +15,11 @@
       "source": "/brochure-2k23-latest",
       "destination": "https://www.canva.com/design/DAFlP928h5A/QCuOa5VxLmyqI2wtVnvSng/edit?utm_content=DAFlP928h5A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
       "permanent": true
+    },
+    {
+      "source": "/brochure",
+      "destination": "./coming-soon.html",
+      "permanent": true
     }
 
   ]
