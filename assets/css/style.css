@@ -2175,6 +2175,7 @@ html[lang="fr-fr"] .top-block-v2 .top_block_content h1 {
   text-align: center;
   padding: 80px 0 0 0;
   background-color: #182029;
+  
 }
 .screen_item h2 {
   font-size: 36px;
@@ -2286,6 +2287,8 @@ html[lang="fr-fr"] .top-block-v2 .top_block_content h1 {
 
 .main_wrapper--new-start .cats-table .center_wrapper {
   max-width: 1256px;
+  display: block;
+    text-align: -webkit-center;
 }
 .cats-table .cats-items a i {
   display: block;
