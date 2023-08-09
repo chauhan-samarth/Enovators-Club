@@ -20,7 +20,11 @@
       "source": "/brochure",
       "destination": "./coming-soon.html",
       "permanent": true
+    },
+    {
+      "source": "/techers-duty-list-2k23-latest",
+      "destination": "https://docs.google.com/document/d/1RZQzVRnGiyp60hHBrd_d_iZSQ9viSpjkhz6Rbnbx6Ik/edit?usp=sharing",
+      "permanent": true
     }
-
   ]
 }
