@@ -17,11 +17,6 @@
       "permanent": true
     },
     {
-      "source": "/brochure",
-      "destination": "./coming-soon.html",
-      "permanent": true
-    },
-    {
       "source": "/teachers-duty-list-2k23-latest",
       "destination": "https://docs.google.com/document/d/1RZQzVRnGiyp60hHBrd_d_iZSQ9viSpjkhz6Rbnbx6Ik/edit?usp=sharing",
       "permanent": true
@@ -29,6 +24,11 @@
     {
       "source": "/members-list-2k23-latest",
       "destination": "https://docs.google.com/spreadsheets/d/1ZIHtzkTkSx_b1cL3xh3QP3yNIdM5K40UcvRMrsM2rx4/edit?usp=sharing",
+      "permanent": true
+    },
+    {
+      "source": "/registration-list-2k23",
+      "destination": "https://docs.google.com/spreadsheets/d/1MX_BiPpblu2u1xSTpy6UQfmPRUMB0ERhmLyMpuyoZE4/edit?usp=sharing",
       "permanent": true
     }
   ]
