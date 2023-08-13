@@ -27,8 +27,13 @@
       "permanent": true
     },
     {
-      "source": "/registration-list-2k23",
+      "source": "/registration-list-2k23-latest",
       "destination": "https://docs.google.com/spreadsheets/d/1MX_BiPpblu2u1xSTpy6UQfmPRUMB0ERhmLyMpuyoZE4/edit?usp=sharing",
+      "permanent": true
+    },
+    {
+      "source": "/tshirt-list-2k23-latest",
+      "destination": "https://docs.google.com/spreadsheets/d/1GzbnnBVTLuAeY1f7sVRxnFjis_5-vbl-sgQhGU606GI/edit?usp=sharing",
       "permanent": true
     }
   ]
