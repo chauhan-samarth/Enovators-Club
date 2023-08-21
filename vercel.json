@@ -27,18 +27,13 @@
       "permanent": true
     },
     {
-      "source": "/registration-list-2k23-latest",
-      "destination": "https://docs.google.com/spreadsheets/d/1MX_BiPpblu2u1xSTpy6UQfmPRUMB0ERhmLyMpuyoZE4/edit?usp=sharing",
-      "permanent": true
-    },
-    {
-      "source": "/tshirt-form",
-      "destination": "https://docs.google.com/spreadsheets/d/1GzbnnBVTLuAeY1f7sVRxnFjis_5-vbl-sgQhGU606GI/edit?usp=sharing",
-      "permanent": true
-    },
-    {
       "source": "/tshirt-2k23-latest",
       "destination": "https://docs.google.com/document/d/1-4YzwKMPy8t_nTfmBj1oTYBmM4Eq92Xe0Fc10FeHHE0/edit?usp=sharing",
+      "permanent": true
+    },
+    {
+      "source": "/fest-data-2k23-latest",
+      "destination": "https://drive.google.com/drive/folders/1fZa6gOAjz_UbLwRXMSq_x50MfPcLeH4j?usp=sharing",
       "permanent": true
     }
   ]
