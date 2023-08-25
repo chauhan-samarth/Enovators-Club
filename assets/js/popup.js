@@ -7,7 +7,7 @@ window.addEventListener("load", () => {
     popupScreen.classList.add("active");
     document.getElementById("body").style.overflow = "hidden";
 
-}, 2000);
+}, 0);
 });
 closeButton.addEventListener("click", () => {
   popupScreen.classList.remove("active");
