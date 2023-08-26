@@ -59,7 +59,7 @@ video::-webkit-media-controls-time-remaining-display {
   position: relative;
   border: 3px solid #34353d;
   background: #182029;
-  max-width: 720px;
+  max-width: 620px;
   margin: 15px;
   display: flex;
   justify-content: center;
