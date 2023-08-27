@@ -879,7 +879,7 @@ html[lang="es-es"] .footer .center_wrapper .footer-d > p {
 }
 @media only screen and (max-width: 767px) {
   .popup-screen{
-    margin-top: -90px;
+    margin-top: -60px;
   }
   .footer-c > div a > span {
     padding: 0;
