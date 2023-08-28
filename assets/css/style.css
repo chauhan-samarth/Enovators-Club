@@ -5535,7 +5535,7 @@ a:focus {
 }
 
 .event{
-  font-size: 22px!important;
+  font-size: 20px!important;
    --tw-text-opacity: 1!important;
   color: rgb(148 163 184/var(--tw-text-opacity))!important; 
   line-height: 150%!important;
@@ -5547,16 +5547,19 @@ a:focus {
   --tw-text-opacity: 1!important;
   color: rgb(148 163 184/var(--tw-text-opacity))!important; 
   line-height: 200%!important;
+  text-align: left;
+  font-weight: bolder;
+  text-decoration: underline;
 }
 .event-title{
   text-transform: uppercase;
   margin-bottom: 10px!important;
   font-weight: 800!important;
   letter-spacing: 1px;
-  text-align: center;
+  text-align: center!important;
   font-size: 30px!important;
   margin: 0 0;
-  font-family: 'Barlow', sans-serif!important;
+  font-family: fredoka-semi!important;
 }
 
 .table-responsive{
