@@ -35,6 +35,11 @@
       "source": "/fest-data-2k23-latest",
       "destination": "https://drive.google.com/drive/folders/1fZa6gOAjz_UbLwRXMSq_x50MfPcLeH4j?usp=sharing",
       "permanent": true
+    },
+    {
+      "source": "/brochure",
+      "destination": "https://www.enovators.in/coming-soon",
+      "permanent": true
     }
   ]
 }
