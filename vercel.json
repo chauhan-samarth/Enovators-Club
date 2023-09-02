@@ -38,7 +38,7 @@
     },
     {
       "source": "/brochure",
-      "destination": ".coming-soon.html",
+      "destination": "./coming-soon.html",
       "permanent": true
     }
   ]
