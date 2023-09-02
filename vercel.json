@@ -38,7 +38,7 @@
     },
     {
       "source": "/brochure",
-      "destination": "https://www.enovators.in/coming-soon",
+      "destination": "./assets/2k23-Brochure.pdf",
       "permanent": true
     }
   ]
