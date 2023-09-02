@@ -38,7 +38,7 @@
     },
     {
       "source": "/brochure",
-      "destination": "./assets/2k23-Brochure.pdf",
+      "destination": ".coming-soon.html",
       "permanent": true
     }
   ]
