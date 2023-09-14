@@ -34,22 +34,9 @@
 
 
     <div class="main_wrapper main-new main_wrapper--new-start ">
-      <div style="display: none;">
-        <div id="proactivechatcontainerue5t8hbsqu"></div>
-        <table border="0" cellspacing="2" cellpadding="2">
-          <tbody>
-            <tr>
-              <td align="center" id="swifttagcontainerue5t8hbsqu">
-                <div style="display: inline;" id="swifttagdatacontainerue5t8hbsqu"></div>
-              </td>
-            </tr>
-            <tr>
-              <td align="center"></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div id="banner-servers-update"></div>
+      <div class="loader_bg">
+        <div class="loader"></div>
+    </div>
       <div class="top-panel transparent-unlogged transparent-unlogged--new" id="navbar">
         <div class="center_wrapper">
 
@@ -107,6 +94,7 @@
 
 
       <div class="top-block-v2 screen_item" style="background-image:url(./assets/images/slider_bg.webp); background-size: cover;">
+        
         <div class="popup-screen">
           <div class="popup-box">
             <h2 class="main-title" style="margin-top: 10px;">ANNOUNCEMENT</h2>
@@ -328,4 +316,10 @@
 <script type="text/javascript" src="./assets/js/backbone.js"></script>
 <script type="text/javascript" src="./assets/js/code.js"></script>
 <script type="text/javascript" src="./assets/js/countdown.js"></script>
-<script type="text/javascript" src="./assets/js/popup.js"></script></body></html>
+<script type="text/javascript" src="./assets/js/popup.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.loader_bg').fadeToggle();
+        }, 2000);
+    </script></body></html>
