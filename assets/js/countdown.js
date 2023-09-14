@@ -37,6 +37,6 @@ function Enovators() {
 
 setInterval(function () {
   Enovators();
-}, 1000);
+}, 0);
 
 
