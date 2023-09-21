@@ -12,9 +12,9 @@
 
 <body style="background-color: #182029;">
     <div class="main_wrapper main-new main_wrapper--new-start ">
-        <div class="loader_bg">
-            <div class="loader"></div>
-        </div>
+        <!-- <div class="loader_bg">
+              <div class="loader"></div>
+            </div> -->
         <div id="banner-servers-update"></div>
         <div class="top-panel transparent-unlogged transparent-unlogged--new">
             <div class="center_wrapper">
@@ -74,21 +74,21 @@
 
             </div>
         </div>
-        <style>
-            .main_wrapper--new-start .cats-table.v2::before {
-                background-image: none;
-            }
-
-            .sc-9ee92694-3 {
-                display: none;
-            }
-        </style>
         <img src="../assets/images/register.png"
             style="border:0;height: 200px; border-radius: 0px; padding-left: 10%; padding-right: 10%; background-color: #141c24; margin-top: 90px;"
-            class="video-container"></img>
-        <iframe data-tally-src="https://tally.so/embed/wQMZyY?transparentBackground=1&dynamicHeight=1" width="100%"
-            height="1500" style="background-color: #141c24" frameborder="0" marginheight="0" marginwidth="0"
-            title="Enovators 2K23 Registration Form" scrolling="yes"></iframe>
+            class="video-container">
+        </img>
+
+        <!-- <div id="spinner">
+            <div style="position: sticky; text-align: center;">
+                 <img src="./assets/images/loader.gif" />    
+            </div>
+        </div> -->
+        <iframe name=iframe src="https://tally.so/embed/wQMZyY?transparentBackground=1&dynamicHeight=1" scrolling="yes" noresize frameborder="0" onload="document.getElementById('spinner').style.display='none';"></iframe>
+        </div>
+           
+
+
         <script>
             var d = document,
                 w = "https://tally.so/widgets/embed.js",
@@ -160,11 +160,10 @@
     <script type="text/javascript" src="./assets/js/backbone.js"></script>
     <script type="text/javascript" src="./assets/js/code.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-      <script>
+    <script>
         setTimeout(function () {
-          $('.loader_bg').fadeToggle();
-        }, 1500);
-      </script>
+            $('.loader_bg').fadeToggle();
+        }, 1500);</script>
 </body>
 
 </html>
