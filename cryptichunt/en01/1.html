@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz Form</title>
+<style>
+  .hidden {
+    display: none;
+  }
+</style>
+</head>
+<body>
+
+<form id="quizForm">
+  <div id="question1">
+    <h2>Question 1</h2>
+    <p>What is the capital of France?</p>
+    <input type="text" id="answer1">
+    <button type="button" onclick="checkAnswer(1)">Submit Answer</button>
+  </div>
+
+  <div id="question2" class="hidden">
+    <h2>Question 2</h2>
+    <p>What is the color of the sky?</p>
+    <input type="text" id="answer2">
+    <button type="button" onclick="checkAnswer(2)">Submit Answer</button>
+  </div>
+
+  <!-- Add more questions here -->
+
+  <div id="leaderboard">
+    <h2>Leaderboard</h2>
+    <ol id="leaderboardList">
+      <!-- Leaderboard will be dynamically populated here -->
+    </ol>
+  </div>
+</form>
+
+<script>
+  // Define questions and their correct answers
+  const questions = [
+    { question: "What is the capital of France?", answer: "Paris" },
+    { question: "What is the color of the sky?", answer: "Blue" }
+    // Add more questions here
+  ];
+
+  let currentQuestion = 0;
+  let correctAnswers = 0;
+
+  function checkAnswer(questionNumber) {
+    const answerInput = document.getElementById(`answer${questionNumber}`);
+    const userAnswer = answerInput.value.trim().toLowerCase();
+    const correctAnswer = questions[questionNumber - 1].answer.toLowerCase();
+
+    if (userAnswer === correctAnswer) {
+      // Increment correct answers count
+      correctAnswers++;
+
+      // Hide current question
+      document.getElementById(`question${questionNumber}`).classList.add('hidden');
+
+      // Move to the next question if available
+      if (currentQuestion < questions.length - 1) {
+        currentQuestion++;
+        document.getElementById(`question${currentQuestion + 1}`).classList.remove('hidden');
+      } else {
+        // All questions answered, show leaderboard
+        showLeaderboard();
+      }
+    } else {
+      alert("Incorrect answer, try again!");
+    }
+  }
+
+  function showLeaderboard() {
+    // Display leaderboard
+    document.getElementById('leaderboard').classList.remove('hidden');
+
+    // Display participant's score
+    const leaderboardList = document.getElementById('leaderboardList');
+    const participantScore = document.createElement('li');
+    participantScore.textContent = `Participant: ${correctAnswers}/${questions.length}`;
+    leaderboardList.appendChild(participantScore);
+  }
+</script>
+
+</body>
+</html>

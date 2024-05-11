@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+  <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="../assets/css/contact.css">
+  <title>Login - Cryptic Hunt | Enovators 2K24</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+</head>
+
+<body>
+  <div class="main_wrapper main-new main_wrapper--new-start ">
+    <div id="header"></div>
+    <div class="container" style="margin-top: 20px;">
+
+      <div class="img">
+        <img src="/assets/images/unit.webp">
+      </div>
+      <div class="login-content" style="margin-top: 50px;">
+        <form id="loginForm">
+          <img src="/assets//images/favicon.png">
+          <h2 class="main-title">CRYPTIC HUNT Sign in</h2>
+          <div class="input-div one box">
+            <div class="i">
+              <i class="fas fa-user"></i>
+            </div>
+            <div class="div">
+              <label for="loginID"></label>
+              <input type="text" id="loginID" style="color: #fff!important" name="loginID" required
+                placeholder="Login ID">
+            </div>
+            <style>
+              input:focus::placeholder {
+                color: transparent;
+              }
+            </style>
+          </div>
+          <div class="input-div pass box">
+            <div class="i">
+              <i class="fas fa-lock"></i>
+            </div>
+            <div class="div">
+              <label for="password"></label>
+              <input type="password" id="password" style="color: #fff!important" name="password" required
+                placeholder="Password">
+            </div>
+          </div><br><br>
+          <button type="submit" class="btn-main">Sign in</button>
+        </form>
+      </div>
+    </div>
+    <div id="footer"></div>
+  </div>
+  </div>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    $(function () {
+      $("#header").load("https://www.enovators.in/header.html");
+      $("#footer").load("https://www.enovators.in/footer.html");
+    });
+  </script>
+
+
+</body>
+
+</html>

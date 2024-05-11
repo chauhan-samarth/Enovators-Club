@@ -1,0 +1,77 @@
+<div class="top-panel transparent-unlogged transparent-unlogged--new" id="navbar header">
+  <div class="center_wrapper">
+
+    <a href="./index">
+      <div class="logo">
+        <h1 class="logotype"></h1>
+        <div class="decorations"></div>
+      </div>
+    </a>
+    <div id="menu" class="new_hp mobile_menu">
+      <div>
+        <i id="mob_icon" class="svg-icon icon-menu mmenu-ico">
+          <span class="mob_icon--line fl"></span>
+          <span class="mob_icon--line sl"></span>
+          <span class="mob_icon--line tl"></span>
+        </i>
+        <ul>
+          <li>
+            <a href="./index" class="cust">HOME</a>
+          </li>
+          <li>
+            <a href="https://www.enovators.in/about">ABOUT</a>
+          </li>
+          <li>
+            <a href="https://www.enovators.in/core">CORE</a>
+          </li>
+          <li>
+            <a href="https://www.enovators.in/rules">RULES</a>
+          </li>
+          <li>
+            <a href="https://www.enovators.in/contact">CONTACT</a>
+          </li>
+          <li>
+            <a href="https://www.enovators.in/coming">RESULT</a>
+          </li>
+          <li class="hidden_item">
+            <a href="https://www.enovators.in/cryptichunt/login">CRYPTIC HUNT <ion-icon name="open-outline"></ion-icon></a>
+          </li>
+          <li class="hidden_item">
+            <a href="https://www.enovators.in/2k24-register">2k24 Registration</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="user_block unlogged logged-menu">
+      <ul class="links">
+        <li>
+          <a class="btn-dark" href="https://www.enovators.in/cryptichunt/login">CRYPTIC HUNT <ion-icon name="open-outline"></ion-icon></a>
+        </li>
+        <li>
+          <a class="btn-main" href="https://www.enovators.in/2k24-register">2k24 REGISTRATION</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script>
+  document.getElementById("loginForm").addEventListener("submit", function(event) {
+      event.preventDefault(); // Prevent form submission
+    
+      var loginID = document.getElementById("loginID").value;
+      var password = document.getElementById("password").value;
+    
+      // Perform authentication here
+      if (loginID === "member1" && password === "password1") {
+        window.location.href = "specific_link_for_member1.html";
+      } else if (loginID === "member2" && password === "password2") {
+        window.location.href = "specific_link_for_member2.html";
+      } else {
+        alert("Invalid Login ID or Password");
+      }
+    });
+</script>
+<script type="text/javascript" src="https://www.enovators.in/assets/js/underscore.js"></script>
+<script type="text/javascript" src="https://www.enovators.in/assets/js/backbone.js"></script>
+<script type="text/javascript" src="https://www.enovators.in/assets/js/code.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
