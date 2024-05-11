@@ -1885,37 +1885,37 @@ form{
   background: #182029;
   width: 100%;
   height: 100%;
-  text-align: left
+  text-align: center;
+  overflow: hidden !important
 } 
 
-.preloader-main {
+.preloader3 {
+  margin-top: 270px !important;
+  background: url(/assets/images/favicon.png) no-repeat center;
   margin: auto;
   background-size: 170px;
+  width: 180px;
+  height: 180px;
   left: 0;
   top: 0;
   bottom: 0;
   right: 0;
   align-items: center;
-  overflow: hidden
+  overflow: hidden;
+  animation: pulse 2s infinite;
 }
-
-.preloader3 {
-  border-top: 5px solid #0EA5E9;
-  width: 180px;
-  height: 180px;
-  animation: progress 1.5s ease-in infinite;
-  top: 0
-}
-
-@keyframes progress {
+@keyframes pulse {
   0% {
-    width: 0
+      transform: scale(1);
   }
-
+  50% {
+      transform: scale(1.1);
+  }
   100% {
-    width: 100%
+      transform: scale(1);
   }
 }
+
 
 @media screen and (max-width: 1050px) {
   .container {
