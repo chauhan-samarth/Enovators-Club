@@ -1878,7 +1878,44 @@ form{
 .input-div.pass {
   margin-bottom: 4px;
 }
+.preloaderBg-main {
+  position: fixed;
+  z-index: 9999999999999;
+  top: 0;
+  background: #182029;
+  width: 100%;
+  height: 100%;
+  text-align: left
+} 
 
+.preloader-main {
+  margin: auto;
+  background-size: 170px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  align-items: center;
+  overflow: hidden
+}
+
+.preloader3 {
+  border-top: 5px solid #0EA5E9;
+  width: 180px;
+  height: 180px;
+  animation: progress 1.5s ease-in infinite;
+  top: 0
+}
+
+@keyframes progress {
+  0% {
+    width: 0
+  }
+
+  100% {
+    width: 100%
+  }
+}
 
 @media screen and (max-width: 1050px) {
   .container {

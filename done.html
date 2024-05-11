@@ -11,6 +11,10 @@
 </head>
 
 <body>
+  <div class="preloaderBg-main">
+    <div class="preloader-main"></div>
+    <div class="preloader3"></div>
+  </div>
   <div class="main_wrapper main-new main_wrapper--new-start ">
     <div id="header"></div>
     <style>
@@ -67,6 +71,12 @@
       $("#header").load("https://www.enovators.in/header.html");
       $("#footer").load("https://www.enovators.in/footer.html");
     });
+  </script>
+  <script>
+    setTimeout(function () {
+      $('.preloaderBg-main').fadeToggle();
+
+    }, 1500);
   </script>
 </body>
 

@@ -10,26 +10,11 @@
 </head>
 
 <body>
-
+    <div class="preloaderBg-main">
+        <div class="preloader-main"></div>
+        <div class="preloader3"></div>
+      </div>
     <div class="main_wrapper main-new main_wrapper--new-start ">
-        <div style="display: none;">
-            <div id="proactivechatcontainerue5t8hbsqu"></div>
-            <table border="0" cellspacing="2" cellpadding="2">
-                <tbody>
-                    <tr>
-                        <td align="center" id="swifttagcontainerue5t8hbsqu">
-                            <div style="display: inline;" id="swifttagdatacontainerue5t8hbsqu">
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td align="center"></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <div id="banner-servers-update">
-        </div>
         <div id="header"></div>
         <div style="background: #141c24; background-size: contain;;padding-top: 200px; padding-bottom: 120px;">
             <h3 class="contact-title">Feel free to contact us!</h3>
@@ -57,6 +42,12 @@
                 $("#footer").load("https://www.enovators.in/footer.html");
             });
         </script>
+        <script>
+            setTimeout(function () {
+              $('.preloaderBg-main').fadeToggle();
+        
+            }, 1500);
+          </script>
 
 </body>
 

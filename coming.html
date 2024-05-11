@@ -12,19 +12,21 @@
 
 <body>
   <div class="main_wrapper main-new main_wrapper--new-start ">
-    <div class="loader_bg">
-      <div class="loader"></div>
-  </div>
+    <div class="preloaderBg-main">
+      <div class="preloader-main"></div>
+      <div class="preloader3"></div>
+    </div>
     <div id="header"></div>
-    <div class="cats-table v2 screen_item pannel" style="background: #141c24; background-size: contain; padding: 200px 0 0 0; height: 700px;">
+    <div class="cats-table v2 screen_item pannel"
+      style="background: #141c24; background-size: contain; padding: 200px 0 0 0; height: 700px;">
       <div class="center_wrapper">
-          <img src="../assets/images/timer.png" alt="" srcset="" style="height: 150px;"> <br> <br> <br>
-          <h2 class="main-title">Prelims result will be announced soon!</h2>
-          <div class="countdown">
-            <div id="day">00</div>
-            <div id="hour">00</div>
-            <div id="minute">00</div>
-            <div id="second">00</div>
+        <img src="../assets/images/timer.png" alt="" srcset="" style="height: 150px;"> <br> <br> <br>
+        <h2 class="main-title">Prelims result will be announced soon!</h2>
+        <div class="countdown">
+          <div id="day">00</div>
+          <div id="hour">00</div>
+          <div id="minute">00</div>
+          <div id="second">00</div>
         </div><br><br></br><br>
 
       </div>
@@ -34,19 +36,20 @@
   </div>
 
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-      <script>
-      $(function () {
-          $("#header").load("https://www.enovators.in/header.html");
-          $("#footer").load("https://www.enovators.in/footer.html");
-        });
-    </script>
-<script>
-  setTimeout(function () {
-    $('.loader_bg').fadeToggle();
-  }, 1500);
-</script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    $(function () {
+      $("#header").load("https://www.enovators.in/header.html");
+      $("#footer").load("https://www.enovators.in/footer.html");
+    });
+  </script>
+  <script>
+    setTimeout(function () {
+      $('.preloaderBg-main').fadeToggle();
+
+    }, 1500);
+  </script>
 
 </body>
 

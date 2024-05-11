@@ -9,9 +9,12 @@
 </head>
 
 <body>
+    <div class="preloaderBg-main">
+        <div class="preloader-main"></div>
+        <div class="preloader3"></div>
+      </div>
     <div class="main_wrapper main-new main_wrapper--new-start " style="--tw-bg-opacity: 1;
     background-color: rgb(15 23 42/var(--tw-bg-opacity));">
-
         <div id="header"></div>
         <div class="cats-table v2 screen_item"
             style="background: #141c24; background-size: contain; padding-bottom: 120px; padding-top: 200px;">
@@ -231,6 +234,12 @@
             $("#footer").load("https://www.enovators.in/footer.html");
         });
     </script>
+    <script>
+        setTimeout(function () {
+          $('.preloaderBg-main').fadeToggle();
+    
+        }, 1500);
+      </script>
 </body>
 
 </html>
