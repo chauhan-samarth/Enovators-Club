@@ -1880,42 +1880,93 @@ form{
 }
 .preloaderBg-main {
   position: fixed;
-  z-index: 99999;
-  top: 0;
-  background: #141c24;
+  z-index: 9999;
+  background-color: #141c24;
   width: 100%;
-  height: 100%;
-  text-align: center;
-  overflow: hidden !important
+  height: 100%
 } 
 
-.preloader3 {
-  background: url(/assets/images/favicon.svg) no-repeat;
-  margin-top: 270px !important;
+.preloader3{
+position: absolute;
   margin: auto;
-  background-size: 170px;
-  width: 180px;
-  height: 180px;
   left: 0;
   top: 0;
   bottom: 0;
   right: 0;
-  align-items: center;
-  overflow: hidden;
-  animation: pulse 2s infinite;
+  width: 26px;
+  height: 26px;
+  border-radius: 100%;
+  box-shadow: 26px 26px #0ea4e9,-26px 26px #dfdfdf,-26px -26px #0ea4e9,26px -26px #dfdfdf;
+  -o-box-shadow: 26px 26px #0ea4e9,-26px 26px #dfdfdf,-26px -26px #0ea4e9,26px -26px #dfdfdf;
+  -ms-box-shadow: 26px 26px #0ea4e9,-26px 26px #dfdfdf,-26px -26px #0ea4e9,26px -26px #dfdfdf;
+  -webkit-box-shadow: 26px 26px #0ea4e9,-26px 26px #dfdfdf,-26px -26px #0ea4e9,26px -26px #dfdfdf;
+  -moz-box-shadow: 26px 26px #0ea4e9,-26px 26px #dfdfdf,-26px -26px #0ea4e9,26px -26px #dfdfdf;
+  animation: loader-box ease infinite 2s;
+  -o-animation: loader-box ease infinite 2s;
+  -ms-animation: loader-box ease infinite 2s;
+  -webkit-animation: loader-box ease infinite 2s;
+  -moz-animation: loader-box ease infinite 2s
 }
-@keyframes pulse {
-  0% {
-      transform: scale(1);
+@keyframes loader-box {
+  0%,
+  100% {
+    box-shadow: 26px 26px #0ea4e9,-26px 26px #dfdfdf,-26px -26px #0ea4e9,26px -26px #dfdfdf
+  }
+  25% {
+    box-shadow: -26px 26px #dfdfdf,-26px -26px #0ea4e9,26px -26px #dfdfdf,26px 26px #0ea4e9
   }
   50% {
-      transform: scale(1.1);
-  }
-  100% {
-      transform: scale(1);
+    box-shadow: -26px -26px #0ea4e9,26px -26px #dfdfdf,26px 26px #0ea4e9,-26px 26px #dfdfdf
   }
 }
-
+@-o-keyframes loader-box {
+  0%,
+  100% {
+    box-shadow: 26px 26px #0ea4e9,-26px 26px #dfdfdf,-26px -26px #0ea4e9,26px -26px #dfdfdf
+  }
+  25% {
+    box-shadow: -26px 26px #dfdfdf,-26px -26px #0ea4e9,26px -26px #dfdfdf,26px 26px #0ea4e9
+  }
+  50% {
+    box-shadow: -26px -26px #0ea4e9,26px -26px #dfdfdf,26px 26px #0ea4e9,-26px 26px #dfdfdf
+  }
+}
+@-ms-keyframes loader-box {
+  0%,
+  100% {
+    box-shadow: 26px 26px #0ea4e9,-26px 26px #dfdfdf,-26px -26px #0ea4e9,26px -26px #dfdfdf
+  }
+  25% {
+    box-shadow: -26px 26px #dfdfdf,-26px -26px #0ea4e9,26px -26px #dfdfdf,26px 26px #0ea4e9
+  }
+  50% {
+    box-shadow: -26px -26px #0ea4e9,26px -26px #dfdfdf,26px 26px #0ea4e9,-26px 26px #dfdfdf
+  }
+}
+@-webkit-keyframes loader-box {
+  0%,
+  100% {
+    box-shadow: 26px 26px #0ea4e9,-26px 26px #dfdfdf,-26px -26px #0ea4e9,26px -26px #dfdfdf
+  }
+  25% {
+    box-shadow: -26px 26px #dfdfdf,-26px -26px #0ea4e9,26px -26px #dfdfdf,26px 26px #0ea4e9
+  }
+  50% {
+    box-shadow: -26px -26px #0ea4e9,26px -26px #dfdfdf,26px 26px #0ea4e9,-26px 26px #dfdfdf
+  }
+}
+@-moz-keyframes loader-box {
+  0%,
+  100% {
+    box-shadow: 26px 26px #0ea4e9,-26px 26px #dfdfdf,-26px -26px #0ea4e9,26px -26px #dfdfdf
+  }
+  25% {
+    box-shadow: -26px 26px #dfdfdf,-26px -26px #0ea4e9,26px -26px #dfdfdf,26px 26px #0ea4e9
+  }
+  50% {
+    box-shadow: -26px -26px #0ea4e9,26px -26px #dfdfdf,26px 26px #0ea4e9,-26px 26px #dfdfdf
+  }
+}
 
 @media screen and (max-width: 1050px) {
   .container {
@@ -5752,92 +5803,4 @@ div#table-header {
   margin-top: 0;
   margin-bottom: 20px;
   color: #fff
-}
-.loader_bg {
-  position: fixed;
-  z-index: 9999;
-  background-color: #141c24;
-  width: 100%;
-  height: 100%
-}
-.loader {
-  position: absolute;
-  margin: auto;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  width: 26px;
-  height: 26px;
-  border-radius: 100%;
-  box-shadow: 26px 26px #0ea4e9,-26px 26px #dfdfdf,-26px -26px #0ea4e9,26px -26px #dfdfdf;
-  -o-box-shadow: 26px 26px #0ea4e9,-26px 26px #dfdfdf,-26px -26px #0ea4e9,26px -26px #dfdfdf;
-  -ms-box-shadow: 26px 26px #0ea4e9,-26px 26px #dfdfdf,-26px -26px #0ea4e9,26px -26px #dfdfdf;
-  -webkit-box-shadow: 26px 26px #0ea4e9,-26px 26px #dfdfdf,-26px -26px #0ea4e9,26px -26px #dfdfdf;
-  -moz-box-shadow: 26px 26px #0ea4e9,-26px 26px #dfdfdf,-26px -26px #0ea4e9,26px -26px #dfdfdf;
-  animation: loader-box ease infinite 2s;
-  -o-animation: loader-box ease infinite 2s;
-  -ms-animation: loader-box ease infinite 2s;
-  -webkit-animation: loader-box ease infinite 2s;
-  -moz-animation: loader-box ease infinite 2s
-}
-@keyframes loader-box {
-  0%,
-  100% {
-    box-shadow: 26px 26px #0ea4e9,-26px 26px #dfdfdf,-26px -26px #0ea4e9,26px -26px #dfdfdf
-  }
-  25% {
-    box-shadow: -26px 26px #dfdfdf,-26px -26px #0ea4e9,26px -26px #dfdfdf,26px 26px #0ea4e9
-  }
-  50% {
-    box-shadow: -26px -26px #0ea4e9,26px -26px #dfdfdf,26px 26px #0ea4e9,-26px 26px #dfdfdf
-  }
-}
-@-o-keyframes loader-box {
-  0%,
-  100% {
-    box-shadow: 26px 26px #0ea4e9,-26px 26px #dfdfdf,-26px -26px #0ea4e9,26px -26px #dfdfdf
-  }
-  25% {
-    box-shadow: -26px 26px #dfdfdf,-26px -26px #0ea4e9,26px -26px #dfdfdf,26px 26px #0ea4e9
-  }
-  50% {
-    box-shadow: -26px -26px #0ea4e9,26px -26px #dfdfdf,26px 26px #0ea4e9,-26px 26px #dfdfdf
-  }
-}
-@-ms-keyframes loader-box {
-  0%,
-  100% {
-    box-shadow: 26px 26px #0ea4e9,-26px 26px #dfdfdf,-26px -26px #0ea4e9,26px -26px #dfdfdf
-  }
-  25% {
-    box-shadow: -26px 26px #dfdfdf,-26px -26px #0ea4e9,26px -26px #dfdfdf,26px 26px #0ea4e9
-  }
-  50% {
-    box-shadow: -26px -26px #0ea4e9,26px -26px #dfdfdf,26px 26px #0ea4e9,-26px 26px #dfdfdf
-  }
-}
-@-webkit-keyframes loader-box {
-  0%,
-  100% {
-    box-shadow: 26px 26px #0ea4e9,-26px 26px #dfdfdf,-26px -26px #0ea4e9,26px -26px #dfdfdf
-  }
-  25% {
-    box-shadow: -26px 26px #dfdfdf,-26px -26px #0ea4e9,26px -26px #dfdfdf,26px 26px #0ea4e9
-  }
-  50% {
-    box-shadow: -26px -26px #0ea4e9,26px -26px #dfdfdf,26px 26px #0ea4e9,-26px 26px #dfdfdf
-  }
-}
-@-moz-keyframes loader-box {
-  0%,
-  100% {
-    box-shadow: 26px 26px #0ea4e9,-26px 26px #dfdfdf,-26px -26px #0ea4e9,26px -26px #dfdfdf
-  }
-  25% {
-    box-shadow: -26px 26px #dfdfdf,-26px -26px #0ea4e9,26px -26px #dfdfdf,26px 26px #0ea4e9
-  }
-  50% {
-    box-shadow: -26px -26px #0ea4e9,26px -26px #dfdfdf,26px 26px #0ea4e9,-26px 26px #dfdfdf
-  }
 }
