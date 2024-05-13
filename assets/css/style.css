@@ -1890,8 +1890,8 @@ form{
 } 
 
 .preloader3 {
+  background: url(/assets/images/favicon.svg) no-repeat;
   margin-top: 270px !important;
-  background: url(/assets/images/favicon.svg) no-repeat center;
   margin: auto;
   background-size: 170px;
   width: 180px;
@@ -5494,7 +5494,7 @@ to {
         background-repeat: no-repeat
       }
       .main_wrapper--new-start .top_block_content {
-        background: url("/assets/images/favicon.png") 800px 180px/400px 400px no-repeat;
+        background: url("/assets/images/favicon.svg") 800px 180px/400px 400px no-repeat;
         padding-bottom: 30px;
         opacity: 1
       }
