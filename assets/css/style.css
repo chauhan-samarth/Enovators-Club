@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 html {
   scroll-behavior: smooth
 }
@@ -10,9 +12,9 @@ html {
   --tw-text-opacity: 1;
   background-color: rgb(148 163 184 / var(--tw-text-opacity))
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width:480px) {
   .top {
-    margin-top: 10px;
+    margin-top: 10px
   }
 }
 .svg-icon {
@@ -255,7 +257,7 @@ a {
 .logged-menu .links li a {
   font-size: 15px;
   font-weight: 500;
-  font-family: Fredoka-semi
+  font-family: 'Roboto', sans-serif
 }
 .user_block .links li {
   float: left;
@@ -1070,14 +1072,9 @@ iframe {
   width: 100%
 }
 @font-face {
-  font-family: Fredoka;
-  src: url(/assets/fonts/Fredoka-Regular.ttf);
-  font-weight: 200!important
-}
-@font-face {
-  font-family: Fredoka-semi;
-  src: url(/assets/fonts/Fredoka-SemiBold.ttf);
-  font-weight: 200!important
+  font-family: Roboto;
+  src: url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+  font-weight: 500!important
 }
 body {
   scroll-behavior: smooth
@@ -1134,8 +1131,8 @@ body {
   opacity: .75;
   font-weight: 300;
   font-size: 15px;
-  font-weight: 500;
-  font-family: Fredoka-semi;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
   text-transform: capitalize;
   border-left: none;
   height: 40px;
@@ -1151,30 +1148,15 @@ body {
   margin: 15px 0 10px 0;
   font-weight: 300;
   font-size: 17px;
-  font-weight: 500;
-  font-family: Fredoka-semi;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
   text-transform: capitalize;
   border-left: none;
   height: 40px;
   line-height: 30px;
   margin-bottom: 50px
 }
-@keyframes animateWaves {
-  0% {
-    background-position-x: 1000px
-  }
-  100% {
-    background-positon-x: 0
-  }
-}
-@keyframes animate {
-  0% {
-    background-position-x: -1000px
-  }
-  100% {
-    background-positon-x: 0
-  }
-}
+
 a,
 b,
 body,
@@ -1324,7 +1306,7 @@ html {
   clear: both
 }
 body {
-  font: 14px/16px Montserrat,"Helvetica Neue",Helvetica,sans-serif;
+  font: 14px/16px 'Roboto', sans-serif,"Helvetica Neue",Helvetica,sans-serif;
   min-width: 320px;
   background-color: #141c24;
   color: #252737
@@ -1352,7 +1334,7 @@ b {
   padding: 0 20px
 }
 .center-font {
-  font-family: Montserrat;
+  font-family: 'Roboto', sans-serif;
   font-size: 56px;
   font-weight: 600;
   line-height: 1.14;
@@ -1557,9 +1539,10 @@ a.no_underline {
 .top-panel.transparent-unlogged--new #menu.new_hp > div > ul > li > a {
   text-transform: none;
   height: auto;
-  font-family: Fredoka-semi;
-  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
   line-height: 1.6;
+  letter-spacing: 0cm;
   color: #fff
 }
 .top-panel.transparent-unlogged--new #menu.new_hp > div > ul > li > a:hover {
@@ -1592,7 +1575,7 @@ html[lang=fr-fr] .top-panel.transparent-unlogged #menu.new_hp > div > ul > li {
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  background: #182029;
+  background: #182029
 }
 .top-panel.transparent-unlogged--new .center_wrapper {
   box-sizing: border-box;
@@ -1651,7 +1634,7 @@ html[lang=fr-fr] .top-panel.transparent-unlogged #menu.new_hp > div > ul > li {
   line-height: 1.18;
   letter-spacing: normal;
   color: #fff;
-  font-family: Fredoka-semi;
+  font-family: 'Roboto', sans-serif;
   margin-top: 130px
 }
 html[lang=es-es] .top-block-v2 .top_block_content h1 {
@@ -1674,7 +1657,7 @@ html[lang=fr-fr] .top-block-v2 .top_block_content h1 {
   line-height: 37px
 }
 .main_wrapper--new-start .top-block-v2 .top_block_content > p {
-  font-family: Montserrat;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 600;
   line-height: 1.6;
@@ -1687,7 +1670,7 @@ html[lang=fr-fr] .top-block-v2 .top_block_content h1 {
   display: block
 }
 .main-btn {
-  font-family: Montserrat;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 600;
   line-height: 24px;
@@ -1710,13 +1693,13 @@ html[lang=fr-fr] .top-block-v2 .top_block_content h1 {
   background-color: rgb(30 41 59 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(203 213 225 / var(--tw-text-opacity))!important;
-  font-family: Fredoka-semi;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 700!important;
   line-height: 24px;
   text-align: center;
   margin-left: 10px;
-  padding: 12px 28px;
+  padding: 12px 15px;
   min-width: 120px;
   min-height: 36px;
   border-radius: 10px;
@@ -1734,9 +1717,9 @@ html[lang=fr-fr] .top-block-v2 .top_block_content h1 {
   --tw-text-opacity: 1;
   background-color: rgb(148 163 184 / var(--tw-text-opacity));
   color: #000!important;
-  font-family: Fredoka-semi;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 24px;
   text-align: center;
   margin-left: 10px;
@@ -1747,136 +1730,117 @@ html[lang=fr-fr] .top-block-v2 .top_block_content h1 {
   display: inline-block;
   box-sizing: border-box
 }
-
 .container {
   width: 100vw;
   height: 100vh;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2,1fr);
   grid-gap: 7rem;
-  padding: 0 2rem;
+  padding: 0 2rem
 }
-
 .img {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
+  align-items: center
 }
-
 .login-content {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  text-align: center;
+  text-align: center
 }
-
 .img img {
-  width: 500px;
+  width: 500px
 }
-
-
 .login-content img {
-  height: 100px;
+  height: 100px
 }
-
 .login-content h2 {
   margin: 15px 0;
   color: #333;
   text-transform: uppercase;
-  font-size: 2.9rem;
+  font-size: 2.9rem
 }
-
 .login-content .input-div {
   position: relative;
   display: grid;
   grid-template-columns: 7% 93%;
   margin: 25px 0;
   padding: 5px 0;
-  border-bottom: 2px solid #d9d9d9;
+  border-bottom: 2px solid #d9d9d9
 }
-
 .login-content .input-div.one {
-  margin-top: 0;
+  margin-top: 0
 }
-
 .i {
   color: #d9d9d9;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center
 }
-
 .i i {
-  transition: .3s;
+  transition: .3s
 }
-
-.input-div>div {
+.input-div > div {
+  margin-left: 20px;
   position: relative;
-  height: 45px;
+  height: 45px
 }
-
-.input-div>div>h5 {
+.input-div > div > h5 {
   position: absolute;
   left: 10px;
   top: 50%;
   transform: translateY(-50%);
   color: #999;
   font-size: 18px;
-  transition: .3s;
+  transition: .3s
 }
-
-.input-div:before,
-.input-div:after {
+.input-div:after,
+.input-div:before {
   content: '';
   position: absolute;
   bottom: -2px;
   width: 0%;
   height: 2px;
   background-color: #38d39f;
-  transition: .4s;
+  transition: .4s
 }
-
 .input-div:before {
-  right: 50%;
+  right: 50%
 }
-
 .input-div:after {
-  left: 50%;
+  left: 50%
 }
-
-.input-div.focus:before,
-.input-div.focus:after {
-  width: 50%;
+.input-div.focus:after,
+.input-div.focus:before {
+  width: 50%
 }
-
-.input-div.focus>div>h5 {
+.input-div.focus > div > h5 {
   top: -5px;
-  font-size: 15px;
+  font-size: 15px
 }
-
-.input-div.focus>.i>i {
-  color: #38d39f;
+.input-div.focus > .i > i {
+  color: #38d39f
 }
-form{
-  width: auto;
+form {
+  width: auto
 }
-.input-div>div>input {
+.input-div > div > input {
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   border: none;
-  outline: none;
-  background: none;
-  padding: 0.5rem 0.7rem;
+  outline: 0;
+  background: 0 0;
+  padding: .5rem .7rem;
   font-size: 1.2rem;
   color: #555;
-  font-family: 'poppins', sans-serif;
+  font-family: poppins,sans-serif
 }
-
 .input-div.pass {
-  margin-bottom: 4px;
+  margin-bottom: 4px
 }
 .preloaderBg-main {
   position: fixed;
@@ -1884,10 +1848,9 @@ form{
   background-color: #141c24;
   width: 100%;
   height: 100%
-} 
-
-.preloader3{
-position: absolute;
+}
+.preloader3 {
+  position: absolute;
   margin: auto;
   left: 0;
   top: 0;
@@ -1967,56 +1930,49 @@ position: absolute;
     box-shadow: -26px -26px #0ea4e9,26px -26px #dfdfdf,26px 26px #0ea4e9,-26px 26px #dfdfdf
   }
 }
-
-@media screen and (max-width: 1050px) {
+@media screen and (max-width:1050px) {
   .container {
-    grid-gap: 5rem;
+    grid-gap: 5rem
   }
 }
-form{
-  width: 400px;
+form {
+  width: 400px
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width:1000px) {
   form {
-    width: 315px;
+    width: 315px
   }
-
   .login-content h2 {
     font-size: 2.4rem;
-    margin: 8px 0;
+    margin: 8px 0
   }
-
   .img img {
-    width: 400px;
+    width: 400px
   }
 }
-.box{
+.box {
   width: 100%;
-    padding: 0px 10px;
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, rgba(248, 248, 249, 0.16) 0px 0px 0px 1px, rgba(248, 248, 249, 0.08) 0px 2px 5px 0px;
-    border: 0px;
-    border-radius: 5px;
-    outline: none;
-    background-color: rgba(255, 255, 255, 0.055);
-    color: rgb(255, 255, 255);
-    caret-color: rgb(255, 255, 255);
+  padding: 0 10px;
+  box-shadow: rgba(0,0,0,.12) 0 1px 1px 0,rgba(248,248,249,.16) 0 0 0 1px,rgba(248,248,249,.08) 0 2px 5px 0;
+  border: 0;
+  border-radius: 5px;
+  outline: 0;
+  background-color: rgba(255,255,255,.055);
+  color: #fff;
+  caret-color: rgb(255,255,255)
 }
-
-@media screen and (max-width: 900px) {
+@media screen and (max-width:900px) {
   .container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr
   }
-
   .img {
-    display: none;
+    display: none
   }
-
   .wave {
-    display: none;
+    display: none
   }
-
   .login-content {
-    justify-content: center;
+    justify-content: center
   }
 }
 .btn-more:hover {
@@ -2455,7 +2411,7 @@ form{
   color: #fff
 }
 .main_wrapper--new-start .screen_item h3 {
-  font-family: Montserrat;
+  font-family: 'Roboto', sans-serif;
   font-size: 35px;
   font-weight: 600;
   line-height: 1.14;
@@ -2516,11 +2472,11 @@ form{
   font-weight: 800!important;
   letter-spacing: 1px;
   text-align: center;
-  font-family: Fredoka-semi!important;
+  font-family: 'Roboto', sans-serif!important;
   font-size: 50px;
   color: #fff!important;
   line-height: 100%;
-  text-transform: uppercase;
+  text-transform: uppercase
 }
 .main-title::after {
   content: "";
@@ -2558,7 +2514,7 @@ form{
   color: #159bbe
 }
 .indo {
-  font-family: Montserrat;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 600;
   text-align: center;
@@ -2567,7 +2523,7 @@ form{
   width: 100%
 }
 .indo-title {
-  font-family: Fredoka-semi;
+  font-family: 'Roboto', sans-serif;
   font-size: 24px;
   font-weight: 600;
   text-align: center;
@@ -2588,7 +2544,7 @@ form{
   padding: 0 50px
 }
 .text {
-  font-family: Montserrat;
+  font-family: 'Roboto', sans-serif;
   font-size: 29px;
   font-weight: 600;
   line-height: 1.38;
@@ -2601,7 +2557,7 @@ form{
   font-weight: 300
 }
 .main_wrapper--new-start .cats-table .cats-items a span {
-  font-family: Montserrat;
+  font-family: 'Roboto', sans-serif;
   font-size: 29px;
   line-height: 1.38;
   text-align: center;
@@ -2648,7 +2604,7 @@ form{
   border-radius: 28px;
   border: solid 2px #00c1f1;
   box-sizing: border-box;
-  font-family: Montserrat;
+  font-family: 'Roboto', sans-serif;
   font-size: 19px;
   font-weight: 600;
   line-height: 1;
@@ -2788,7 +2744,7 @@ form{
     width: auto;
     margin-bottom: 32px;
     font-size: 44px;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 1.17;
     text-align: center;
     padding: 0 24px!important;
@@ -2820,7 +2776,7 @@ form{
 }
 @media screen and (max-width:1295px) {
   .main_wrapper--new-start .top-block-v2 .top_block_content > p {
-    font-family: Montserrat;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 600;
     line-height: 1.6;
@@ -2997,8 +2953,8 @@ form{
   .top-panel.transparent-unlogged--new #menu.new_hp > div > ul > li a {
     color: #fff;
     font-size: 15px;
-    font-weight: 200;
-    font-family: Fredoka-semi;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
     border-left: none;
     height: 40px;
     line-height: 40px
@@ -3213,7 +3169,7 @@ form{
   padding: 310px 0 0 0
 }
 .register {
-  font-family: Fredoka-semi;
+  font-family: 'Roboto', sans-serif;
   font-size: 15px;
   font-weight: 500;
   line-height: 24px;
@@ -3236,16 +3192,17 @@ form{
   color: #fff
 }
 .btn-main {
-  font-family: Fredoka-semi;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 700!important;
+  text-transform: uppercase;
   line-height: 24px;
   text-align: center;
   --tw-bg-opacity: 1;
   background-color: rgb(14 165 233 / var(--tw-bg-opacity));
   color: #fff!important;
   margin-left: 10px;
-  padding: 12px 28px;
+  padding: 12px 15px;
   min-width: 120px;
   min-height: 36px;
   border-radius: 10px;
@@ -3257,7 +3214,7 @@ form{
   color: #fff!important
 }
 .close-button {
-  font-family: Fredoka-semi;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -5438,7 +5395,7 @@ to {
   height: 20px;
   background: var(--primary-purple);
   color: var(--text-white);
-  font-family: Fredoka;
+  font-family: 'Roboto', sans-serif;
   font-size: 15px;
   line-height: 35px;
   font-weight: 700
@@ -5610,22 +5567,6 @@ img {
 [hidden] {
   display: none
 }
-@font-face {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local("Montserrat Regular"),local("Montserrat-Regular"),url(/assets/fonts/font-1.woff2) format("woff2");
-  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
-}
-@font-face {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: local("Montserrat SemiBold"),local("Montserrat-SemiBold"),url(/assets/fonts/font-2.woff2) format("woff2");
-  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
-}
 *,
 ::after,
 ::before {
@@ -5742,7 +5683,7 @@ a:focus {
   text-align: center!important;
   font-size: 30px!important;
   margin: 0 0;
-  font-family: fredoka-semi!important
+  font-family: 'Roboto', sans-serif!important
 }
 .table-responsive {
   padding: 0 30px 70px 30px;
@@ -5768,7 +5709,7 @@ a:focus {
 .table-responsive table thead th {
   padding: 8px;
   border: 2px solid #34353d;
-  font-family: Fredoka;
+  font-family: 'Roboto', sans-serif;
   font-size: 1rem!important;
   line-height: 1.5
 }
@@ -5797,7 +5738,7 @@ div#table-header {
 }
 .event-result {
   font-weight: 700;
-  font-family: Fredoka-semi;
+  font-family: 'Roboto', sans-serif;
   font-size: 22px;
   text-transform: uppercase;
   margin-top: 0;
