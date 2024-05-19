@@ -6,7 +6,7 @@
   <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
   <link rel="shortcut icon" href="/assets/images/favicon.svg" type="image/x-icon">
   <link rel="stylesheet" href="/assets/css/contact.css">
-  <title>Cryptic Hunt | Enovators 2K24</title>
+  <title>Registartion Desk | Enovators 2K24</title>
   <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/a81368914c.js"></script>
 </head>
@@ -76,12 +76,13 @@
     <div class="container">
 
       <div class="img">
-        <img src="./assets/images/unit.webp">
+        <img src="./assets/images/Untitled.png" style="height: 500px; margin-top: 80px;">
       </div>
-      <div class="login-content" style="margin-top: 50px;">
+      <div class="login-content" style="margin-top: 0px;">
         <form id="loginForm">
-          <img src="./assets/images/favicon.webp">
-          <h2 class="main-title">CRYPTIC HUNT Sign in</h2>
+          <img src="./assets/images/favicon.webp" alt="">
+          <h2 class="main-title">Registartion desk</h2>
+          <br><br>
           <div class="input-div one box">
             <div class="i">
               <i class="fas fa-user"></i>
@@ -89,7 +90,7 @@
             <div class="div">
               <label for="loginID"></label>
               <input type="text" id="loginID" style="color: #fff!important" name="loginID" required
-                placeholder="Login ID">
+                placeholder="Team Code">
             </div>
             <style>
               input:focus::placeholder {
@@ -97,16 +98,6 @@
               }
             </style>
           </div>
-          <div class="input-div pass box">
-            <div class="i">
-              <i class="fas fa-lock"></i>
-            </div>
-            <div class="div">
-              <label for="password"></label>
-              <input type="password" id="password" style="color: #fff!important" name="password" required
-                placeholder="Password">
-            </div>
-          </div><br><br>
           <button type="submit" class="btn-main">Sign in</button>
         </form>
       </div>
@@ -158,8 +149,25 @@
   </div>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  <script type="text/javascript" src="./assets/js/jquery-1.10.1.min.js"></script>
   <script type="text/javascript" src="./assets/js/code.js"></script>
+  <script>
+    document.getElementById("loginForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+    
+      var loginID = document.getElementById("loginID").value;
+      var validMembers = [
+        "en01", "en02", "en03", "en04", "en05", "en06", "en07", "en08", "en09", "en10",
+        "en11", "en12", "en13", "en14", "en15", "en16", "en17", "en18", "en19", "en20",
+        "en21", "en22", "en23", "en24", "en25", "en26", "en27", "en28", "en29", "en30"
+      ];
+    
+      if (validMembers.includes(loginID)) {
+        window.location.href = "registration-desk/" + loginID + ".html";
+      } else {
+        alert("Invalid Team Code");
+      }
+    });
+    </script>
     
   
   <script>
