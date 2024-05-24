@@ -162,12 +162,9 @@
   <script type="text/javascript" src="./assets/js/code.js"></script>
   <script>
     document.getElementById("loginForm").addEventListener("submit", function(event) {
-      event.preventDefault(); // Prevent form submission
-    
+      event.preventDefault();
       var loginID = document.getElementById("loginID").value;
       var password = document.getElementById("password").value;
-    
-      // Send login details to the server for validation
       fetch('/api/login', {
         method: 'POST',
         headers: {
