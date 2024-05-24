@@ -1,9 +1,5 @@
 {
   "version": 2,
-  "builds": [
-    { "src": "api/login.js", "use": "@vercel/node" },
-    { "src": "cryptichunt.html", "use": "@vercel/static" }
-  ],
   "cleanUrls": true,
   "redirects": [
     {
