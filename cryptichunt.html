@@ -160,7 +160,34 @@
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <script type="text/javascript" src="./assets/js/jquery-1.10.1.min.js"></script>
   <script type="text/javascript" src="./assets/js/code.js"></script>
+  <script>
+    document.getElementById("loginForm").addEventListener("submit", function(event) {
+      event.preventDefault(); // Prevent form submission
     
+      var loginID = document.getElementById("loginID").value;
+      var password = document.getElementById("password").value;
+    
+      // Send login details to the server for validation
+      fetch('/api/login', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ loginID: loginID, password: password })
+      })
+      .then(response => response.json())
+      .then(data => {
+        if (data.success) {
+          window.location.href = data.redirectURL;
+        } else {
+          alert("Invalid Login ID or Password");
+        }
+      })
+      .catch(error => {
+        console.error('Error:', error);
+      });
+    });
+    </script>
   
   <script>
     setTimeout(function () {

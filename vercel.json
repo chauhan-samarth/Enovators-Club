@@ -1,19 +1,14 @@
 {
+  "version": 2,
+  "builds": [
+    { "src": "api/login.js", "use": "@vercel/node" },
+    { "src": "cryptichunt.html", "use": "@vercel/static" }
+  ],
   "cleanUrls": true,
   "redirects": [
     {
       "source": "/discord",
       "destination": "https://discord.gg/fqhB7m4Mm9",
-      "permanent": true
-    },
-    {
-      "source": "/duty-list-2k23-latest",
-      "destination": "https://docs.google.com/document/d/1XoMitB7qtoPc4oA6AI_pvsIZyrbZb1u6/edit?usp=sharing&ouid=114605164934411352395&rtpof=true&sd=true",
-      "permanent": true
-    },
-    {
-      "source": "/teachers-duty-list-2k23-latest",
-      "destination": "https://docs.google.com/document/d/1YyM7nmUXh8dIAfFt1ocFQO-MKiqz0BSJ/edit?usp=sharing&ouid=114605164934411352395&rtpof=true&sd=true",
       "permanent": true
     },
     {
