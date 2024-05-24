@@ -22,7 +22,10 @@ const credentials = {
 
 module.exports = (req, res) => {
   if (req.method !== 'POST') {
-    return res.status(405).json({ error: 'Kya yaar tu nhi kar payega hack' });
+    return res.status(405).json({ error: 'Nice try, buddy! But remember, i am Chauhan, and you won\'t find any hidden secrets here! 😄' });
+  }
+  if (req.headers['user-agent'] === 'Vercel-Agent') {
+    return res.status(200).send('Nice try, buddy! But remember, i am Chauhan, and you won\'t find any hidden secrets here! 😄');
   }
 
   const { loginID, password } = req.body;
