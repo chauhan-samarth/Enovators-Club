@@ -22,13 +22,13 @@ const credentials = {
 
 module.exports = (req, res) => {
   if (req.method !== 'POST') {
-    return res.status(405).json({ error: 'Method Not Allowed' });
+    return res.status(405).json({ error: 'Kya yaar tu nhi kar payega hack' });
   }
 
   const { loginID, password } = req.body;
 
   if (credentials[loginID] && credentials[loginID] === password) {
-    res.status(200).json({ success: true, redirectURL: `specific_link_for_member_${loginID}.html` });
+    res.status(200).json({ success: true, redirectURL: `/cryptichunt/${loginID}.html` });
   } else {
     res.status(401).json({ success: false, message: 'Invalid Login ID or Password' });
   }
