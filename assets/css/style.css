@@ -2052,7 +2052,6 @@ form {
   margin-bottom: 4px
 }
 
-/* preloader.css */
 
 .preloaderBg-main {
   display: block;
@@ -3517,10 +3516,6 @@ form {
     align-content: center;
     justify-content: flex-start
   }
-}
-
-.top-block-v2.screen_item.logo-landing {
-  background: url(http://www.enovators.in/assets/css/images/new-logo-landing-bg.jpg) no-repeat center top
 }
 
 .top-block-v2.logo-landing .top_block_content h1 {
