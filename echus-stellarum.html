@@ -79,14 +79,9 @@
                         </div>
                         <div class="div">
                             <label for="loginID"></label>
-                            <input type="text" id="loginID" style="color: #fff!important" name="loginID" required
-                                placeholder="Login ID">
+                            <input type="text" id="loginID" name="loginID" required
+                                placeholder="Enter your login ID">
                         </div>
-                        <style>
-                            input:focus::placeholder {
-                                color: transparent;
-                            }
-                        </style>
                     </div>
                     <div class="input-div pass box">
                         <div class="i">
@@ -94,14 +89,19 @@
                         </div>
                         <div class="div">
                             <label for="password"></label>
-                            <input type="password" id="password" style="color: #fff!important" name="password" required
-                                placeholder="Password">
+                            <input type="password" id="password" name="password" required
+                                placeholder="Enter your password">
                         </div>
                     </div><br><br>
                     <button type="submit" class="btn-main">Sign in</button>
                 </form>
             </div>
         </div>
+        <style>
+            ::placeholder{
+                color: #fff;
+            }
+        </style>
         <footer class="footer" id="footer">
             <ul class="social-icon">
                 <li class="social-icon__item">
