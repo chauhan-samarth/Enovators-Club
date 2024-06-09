@@ -1,4 +1,4 @@
-var countDate = new Date("Oct 07, 2023 17:00:00").getTime();
+var countDate = new Date("Aug 05, 2024 17:00:00").getTime();
 function Enovators() {
   var today = new Date().getTime();
   timeLeft = countDate - today;
