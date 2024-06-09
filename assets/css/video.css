@@ -16,7 +16,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  z-index: 999999999999
+  z-index: 9999
 }
 .Rvideo-box {
   width: 100%;
@@ -48,7 +48,7 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color .3s;
-  z-index: 999999999
+  z-index: 999
 }
 #start-button:disabled {
   cursor: not-allowed;
