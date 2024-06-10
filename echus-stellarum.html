@@ -70,7 +70,7 @@
                 <img src="./assets/images/unit.webp">
             </div>
             <div class="login-content" style="margin-top: 50px;">
-                <form id="loginForm">
+                <form id="loginForm" onsubmit="return handleLogin(event)">
                     <img rel="preload" src="./assets/images/favicon.webp">
                     <h2 class="main-title" style="font-size: 40px!important;">ECHUS STELLARUM Sign in</h2>
                     <div class="input-div one box">
@@ -102,6 +102,7 @@
                 color: #fff;
             }
         </style>
+        
         <footer class="footer" id="footer">
             <ul class="social-icon">
                 <li class="social-icon__item">
