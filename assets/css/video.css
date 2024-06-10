@@ -85,6 +85,10 @@ video::-webkit-media-controls-current-time-display {
 video::-webkit-media-controls-time-remaining-display {
   display: none
 }
+video::-webkit-media-controls-panel {
+  background-image: linear-gradient(transparent, transparent) !important; 
+
+}
 .popup-screen {
   overflow: hidden;
   background: #141c24;

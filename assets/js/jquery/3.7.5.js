@@ -26,7 +26,7 @@
       startButton.disabled = false;
       startButton.classList.add('active');
       startButton.onclick = function() {
-        window.location.href = "01_file_01_b5000622-ba45-4a84-ae7b-585c0f41c81f";
+        window.location.href = "https://www.enovators.in/echus-stellarum/631598-47812365/01_73423ba5-7107-4347-97da-d13b99c6bfc5";
       };
     }
   }, 1000);
