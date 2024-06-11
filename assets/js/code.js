@@ -56,3 +56,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
     });
 });
+document.addEventListener("DOMContentLoaded", function () {
+    setTimeout(function () {
+      const preloader = document.querySelector('.preloaderBg-main');
+      preloader.classList.add('fade-out');
+      preloader.addEventListener('transitionend', function () {
+        preloader.style.display = 'none';
+      });
+    }, 1750);
+  });
