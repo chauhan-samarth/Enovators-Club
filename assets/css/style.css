@@ -2431,16 +2431,12 @@ form {
   width: 280px;
   height: 350px;
   background: #14242c;
-  border-radius: 15px;
-  border: 3px solid #34353d;
+  border-radius: 20px;
+  border: 5px solid rgb(30 41 59);
   transition: all .3s ease-out 0s;
   margin-right: 10px;
   margin-left: 10px;
   margin-bottom: 40px
-}
-.main_wrapper--new-start .cats-table .cats-items > a:hover {
-  border: 3px solid #0ea5e9;
-  transition: all .3s ease-out 0s
 }
 .main_wrapper--new-start .cats-table .center_wrapper {
   max-width: 1256px;
@@ -2496,12 +2492,14 @@ form {
   font-weight: 300
 }
 .main_wrapper--new-start .cats-table .cats-items a span {
+  margin-top: 5px;
+  margin-bottom: 5px;
   font-family: Roboto,sans-serif;
   font-size: 29px;
   line-height: 1.38;
   text-align: center;
   --tw-text-opacity: 1;
-  color: rgb(203 213 225 / var(--tw-text-opacity));
+  color: #fff;
   font-weight: 200;
   padding: 0
 }
