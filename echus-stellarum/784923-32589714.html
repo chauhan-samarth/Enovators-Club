@@ -108,11 +108,11 @@
           <div class="vdo-container">
             <div class="video-container" style="border: 5px solid rgb(30 41 59); border-radius: 20px;">
               <div class="Rvideo-box">
-                <video id="player" autoplay playsinline controls>
+                <video id="player" playsinline controls>
                   <source src="./guidelines.webm" type="video/mp4" />
                 </video>
-                <!-- <ion-icon style="height: 50px;" name="play-circle" id="play-button" class="video-control"></ion-icon> -->
-              </div>
+                <ion-icon name="play-circle" id="play-button" class="video-control"></ion-icon>
+              </div>             
             </div>
             <div class="countdown-section">
               <h3 class="contact-title" style="color: white; text-align: center;">Welcome Team: <span style="color: #0EA5E9;">En01</span><br> Your Preliminary Round Starts In:</h3>
@@ -124,47 +124,7 @@
               </div>
               <button id="start-button" class="btn-main" disabled>Start Now</button>
             </div>
-          </div>
-          <script>
-            const video = document.getElementById('player');
-            const playButton = document.getElementById('play-button');
-            const pauseButton = document.getElementById('pause-button');
-          
-            playButton.addEventListener('click', () => {
-              video.play();
-              playButton.style.display = 'none';
-              pauseButton.style.display = 'none';
-            });
-          
-            pauseButton.addEventListener('click', () => {
-              video.pause();
-              playButton.style.display = 'block';
-              pauseButton.style.display = 'none';
-            });
-          
-            video.addEventListener('play', () => {
-              playButton.style.display = 'none';
-              pauseButton.style.display = 'none';
-            });
-          
-            video.addEventListener('pause', () => {
-              playButton.style.display = 'block';
-              pauseButton.style.display = 'none';
-            });
-          
-            video.addEventListener('click', () => {
-              if (video.paused) {
-                video.play();
-                playButton.style.display = 'none';
-                pauseButton.style.display = 'none';
-              } else {
-                video.pause();
-                playButton.style.display = 'block';
-                pauseButton.style.display = 'none';
-              }
-            });
-          </script>
-                    
+          </div>             
         </div>
       </div>
     </div>

@@ -150,20 +150,22 @@ video::-webkit-media-controls-panel {
 }
 
 .video-control {
-  width: 250px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  border: none;
-  padding: 10px 20px;
-  font-size: 1.2em;
+  font-size: 50px;
   cursor: pointer;
-  z-index: 1000;
-  transition: background-color 0.3s, transform 0.3s;
+  display: none;
+  opacity: 0.8;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.Rvideo-box:hover .video-control {
+  display: block;
 }
 
 .video-control:hover {
-  transform: translate(-50%, -50%) scale(1.1);
+  opacity: 1;
 }
