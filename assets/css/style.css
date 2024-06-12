@@ -1691,6 +1691,7 @@ html[lang=fr-fr] .top-block-v2 .top_block_content h1 {
   border-radius: 10px;
   display: inline-block;
   box-sizing: border-box
+  
 }
 .btn-dark:hover {
   background-color: #283953;
@@ -2430,13 +2431,13 @@ form {
 }
 .main-title::after {
   content: "";
-  display: block;
-  background-image: url(/assets/images/title_shape.svg);
-  background-size: cover;
-  width: 100px;
-  height: 5px;
-  margin: 20px auto 0;
-  margin-bottom: 20px
+    display: block;
+    background-image: url(/assets/images/title_shape.svg);
+    background-size: cover;
+    width: 100px;
+    height: 5px;
+    margin: 5px auto 0;
+    margin-bottom: 10px;
 }
 .main_wrapper--new-start .cats-table .cats-items > a {
   width: 280px;
@@ -3168,10 +3169,9 @@ form {
   background-color: rgb(14 165 233 / var(--tw-bg-opacity));
   color: #fff!important;
   margin-left: 10px;
-  padding: 12px 28px;
-  min-width: 120px;
-  min-height: 36px;
-  border-radius: 10px;
+  padding: 5px 10px;
+  min-height: auto;
+  border-radius: 50%;
   display: inline-block;
   box-sizing: border-box
 }
