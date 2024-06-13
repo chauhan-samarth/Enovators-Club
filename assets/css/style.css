@@ -1855,6 +1855,53 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F5E3E6", en
 .preloaderBg-main.fade-out {
   opacity: 0
 }
+.preloaderBg-rd {
+  display: block;
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  background: hsla(350, 47%, 93%, 1)!important;
+
+  background: linear-gradient(90deg, hsla(350, 47%, 93%, 1) 0%, hsla(216, 58%, 91%, 1) 100%)!important;
+  
+  background: -moz-linear-gradient(90deg, hsla(350, 47%, 93%, 1) 0%, hsla(216, 58%, 91%, 1) 100%)!important;
+  
+  background: -webkit-linear-gradient(90deg, hsla(350, 47%, 93%, 1) 0%, hsla(216, 58%, 91%, 1) 100%)!important;
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F5E3E6", endColorstr="#D9E4F5", GradientType=1 );
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  overflow: hidden!important;
+  transition: opacity .5s ease
+}
+.preloaderBg-rd.fade-out {
+  opacity: 0
+}
+.preloader4 {
+  margin-top: 270px!important;
+  margin: auto;
+  background-size: 170px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  align-items: center;
+  overflow: hidden;
+  border: 5px solid rgb(187, 186, 184); /* Light grey background */
+  border-top: 5px solid #3498db; /* Blue color */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+    align-items: center;
+  animation: spin 0.5s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
 .preloader3 {
   margin-top: 270px!important;
   background: url(/assets/images/favicon.webp) no-repeat center;

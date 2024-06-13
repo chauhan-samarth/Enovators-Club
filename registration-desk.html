@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="EN-us">
 <head>
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
@@ -13,10 +13,7 @@
   caret-color: black
 }
 .input-div > div{
-  color: #000;
-}
-::placeholder{
-  color: #000;
+  color: #555;
 }
 </style>
 </head>
@@ -53,14 +50,13 @@
           <form id="loginForm">
               <img rel="preload" src="./assets/images/logo-2.png">
               <h2 class="main-title" style="font-size: 40px!important; color: black!important;" >REGISTRATION DESK</h2> <br>
-              <div class="input-div one box" style=" box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+              <div class="input-div one box" style=" box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, rgba(61, 59, 53, 0.16) 0px 0px 0px 1px, rgba(61, 59, 53, 0.08) 0px 2px 5px 0px; border: 0; caret-color: rgb(55, 53, 47); border-radius: 10px; ">
                   <div class="i">
                       <i class="fas fa-user"></i>
                   </div>
                   <div class="div">
                       <label for="loginID"></label>
-                      <input type="text" id="loginID" style="color: #555!important" name="loginID" required
-                          placeholder="Team Code">
+                      <input type="text" id="loginID" style="color: #555!important" name="loginID" required placeholder="Enter Team Code" autocomplete="off">
                   </div>
               </div>
               <button type="submit" class="btn-main" style="border: none;">Sign in</button>
@@ -73,14 +69,48 @@
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <script type="text/javascript" src="./assets/js/code.js"></script>
   <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var loginIDInput = document.getElementById("loginID");
+        var prefix = "EN";
+        var activated = false;
+
+        loginIDInput.addEventListener("focus", function() {
+            if (!activated) {
+                loginIDInput.value = prefix;
+                activated = true;
+            }
+        });
+
+        loginIDInput.addEventListener("input", function(event) {
+            if (!loginIDInput.value.startsWith(prefix)) {
+                loginIDInput.value = prefix + loginIDInput.value.slice(prefix.length);
+            }
+        });
+
+        loginIDInput.addEventListener("keydown", function(event) {
+            if (event.key === "Backspace" && loginIDInput.selectionStart <= prefix.length) {
+                event.preventDefault();
+            }
+        });
+
+        loginIDInput.addEventListener("paste", function(event) {
+            event.preventDefault();
+            var pasteText = event.clipboardData.getData("text");
+            if (pasteText.startsWith(prefix)) {
+                loginIDInput.value = pasteText;
+            }
+        });
+    });
+</script>
+  <script>
     document.getElementById("loginForm").addEventListener("submit", function(event) {
       event.preventDefault();
     
       var loginID = document.getElementById("loginID").value;
       var validMembers = [
-        "en01", "en02", "en03", "en04", "en05", "en06", "en07", "en08", "en09", "en10",
-        "en11", "en12", "en13", "en14", "en15", "en16", "en17", "en18", "en19", "en20",
-        "en21", "en22", "en23", "en24", "en25", "en26", "en27", "en28", "en29", "en30"
+        "EN01", "EN02", "EN03", "EN04", "EN05", "EN06", "EN07", "EN08", "EN09", "EN10",
+        "EN11", "EN12", "EN13", "EN14", "EN15", "EN16", "EN17", "EN18", "EN19", "EN20",
+        "EN21", "EN22", "EN23", "EN24", "EN25", "EN26", "EN27", "EN28", "EN29", "EN30"
       ];
     
       if (validMembers.includes(loginID)) {
