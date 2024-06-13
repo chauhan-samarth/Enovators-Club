@@ -2,23 +2,18 @@
   "cleanUrls": true,
   "redirects": [
     {
-      "source": "/discord",
-      "destination": "https://discord.gg/fqhB7m4Mm9",
+      "source": "/members-duty-list-2k24-latest",
+      "destination": "https://docs.google.com/document/d/15qC3tsFGZmV86-tmfTVyKzthuEHOZQgN/edit?usp=sharing&ouid=114605164934411352395&rtpof=true&sd=true",
       "permanent": true
     },
     {
-      "source": "/duty-list-2k23-latest",
-      "destination": "https://docs.google.com/document/d/1XoMitB7qtoPc4oA6AI_pvsIZyrbZb1u6/edit?usp=sharing&ouid=114605164934411352395&rtpof=true&sd=true",
+      "source": "/teachers-duty-list-2k24-latest",
+      "destination": "https://docs.google.com/document/d/1JxOO3YQgJtKibZoQdsuYfYZYPnbnbfL1/edit?usp=sharing&ouid=114605164934411352395&rtpof=true&sd=true",
       "permanent": true
     },
     {
-      "source": "/teachers-duty-list-2k23-latest",
-      "destination": "https://docs.google.com/document/d/1YyM7nmUXh8dIAfFt1ocFQO-MKiqz0BSJ/edit?usp=sharing&ouid=114605164934411352395&rtpof=true&sd=true",
-      "permanent": true
-    },
-    {
-      "source": "/brochure",
-      "destination": "https://drive.google.com/file/d/1S8jfk-fijBOOEhtzqty5IvY1ntAFeft7/view?usp=sharing",
+      "source": "/2k24-brochure",
+      "destination": "",
       "permanent": true
     }
   ]
