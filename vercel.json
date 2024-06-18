@@ -13,12 +13,12 @@
     },
     {
       "source": "/2k24-brochure",
-      "destination": "",
+      "destination": "/",
       "permanent": true
     },
     {
       "source": "/2k24-register",
-      "destination": "",
+      "destination": "/",
       "permanent": true
     }
   ]
