@@ -15,6 +15,11 @@
       "source": "/2k24-brochure",
       "destination": "",
       "permanent": true
+    },
+    {
+      "source": "/2k24-register",
+      "destination": "",
+      "permanent": true
     }
   ]
 }
