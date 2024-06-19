@@ -13,12 +13,7 @@
     },
     {
       "source": "/2k24-brochure",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/2k24-register",
-      "destination": "/",
+      "destination": "https://drive.google.com/file/d/1o9fPnek7NMUodXdjD16NZirDEF_uPHz4/view?usp=sharing",
       "permanent": true
     }
   ]
