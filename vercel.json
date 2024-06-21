@@ -2,12 +2,12 @@
   "cleanUrls": true,
   "redirects": [
     {
-      "source": "/members-duty-list-2k24-latest",
+      "source": "/2k24-members-duty-list",
       "destination": "https://docs.google.com/document/d/15qC3tsFGZmV86-tmfTVyKzthuEHOZQgN/edit?usp=sharing&ouid=114605164934411352395&rtpof=true&sd=true",
       "permanent": true
     },
     {
-      "source": "/teachers-duty-list-2k24-latest",
+      "source": "/2k24-teachers-duty-list",
       "destination": "https://docs.google.com/document/d/1JxOO3YQgJtKibZoQdsuYfYZYPnbnbfL1/edit?usp=sharing&ouid=114605164934411352395&rtpof=true&sd=true",
       "permanent": true
     },
