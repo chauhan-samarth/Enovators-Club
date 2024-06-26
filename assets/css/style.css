@@ -1767,6 +1767,10 @@ html[lang=fr-fr] .top-block-v2 .top_block_content h1 {
 .i i {
   transition: .3s
 }
+audio {
+  display: none;
+}
+
 .input-div > div {
   color: #fff;
   margin-left: 20px;
@@ -3200,11 +3204,13 @@ form {
   min-height: 36px;
   border-radius: 10px;
   display: inline-block;
-  box-sizing: border-box
+  box-sizing: border-box;
+  cursor: pointer!important;
 }
 .btn-main:hover {
   background-color: #3cbcfc;
-  color: #fff!important
+  color: #fff!important;
+  cursor: pointer!important;
 }
 .close-button {
   font-family: Roboto,sans-serif;

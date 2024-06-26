@@ -13,10 +13,11 @@
 </head>
 
 <body>
-        <div class="preloaderBg-main">
+    <!-- <audio id="background-audio" src="/echus-stellarum/check.mp3" loop preload="metadata"></audio> -->
+        <!-- <div class="preloaderBg-main">
             <div class="preloader-main"></div>
             <div class="preloader3"></div>
-        </div>
+        </div> -->
     <div class="main_wrapper main-new main_wrapper--new-start ">
         <div class="top-panel transparent-unlogged transparent-unlogged--new" id="navbar header">
             <div class="center_wrapper">
@@ -99,7 +100,7 @@
                         </div>
                         <div class="div">
                             <label for="loginID"></label>
-                            <input type="text" id="loginID" name="loginID" required placeholder="Enter your login ID">
+                            <input type="text" id="loginID" name="loginID" required placeholder="Enter your login ID" autocomplete="off">
                         </div>
                     </div>
                     <div class="input-div pass box">
@@ -109,7 +110,7 @@
                         <div class="div">
                             <label for="password"></label>
                             <input type="password" id="password" name="password" required
-                                placeholder="Enter your password">
+                                placeholder="Enter your password" autocomplete="off">
                         </div>
                     </div><br><br>
                     <button type="submit" class="btn-main">Sign in</button>
@@ -177,5 +178,4 @@
     <script type="text/javascript" src="./assets/js/jquery-1.10.1.min.js"></script>
     <script type="text/javascript" src="./assets/js/code.js"></script>
 </body>
-
 </html>

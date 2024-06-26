@@ -65,3 +65,25 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     }, 1750);
   });
+  function playAudio() {
+    const audio = document.getElementById('background-audio');
+    if (audio) {
+        audio.play().catch(error => {
+            console.error("Error playing audio automatically:", error);
+            const interactions = ['click', 'touchstart'];
+            interactions.forEach(event => {
+                document.body.addEventListener(event, playAudioOnInteraction, { once: true });
+            });
+        });
+    }
+}
+function playAudioOnInteraction() {
+    const audio = document.getElementById('background-audio');
+    if (audio) {
+        audio.play().catch(error => {
+            console.error("Error playing audio on interaction:", error);
+        });
+    }
+}
+document.addEventListener('DOMContentLoaded', playAudio);
+
