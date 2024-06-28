@@ -3188,6 +3188,9 @@ form {
   background-color: rgb(14 165 233 / var(--tw-bg-opacity));
   color: #fff
 }
+.freeze-scroll {
+  overflow: hidden;
+}
 .btn-main {
   font-family: Roboto,sans-serif;
   font-size: 20px;
