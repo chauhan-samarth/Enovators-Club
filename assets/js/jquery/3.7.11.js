@@ -30,44 +30,9 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   }, 1000);
 });
-
-var isLoggedIn = sessionStorage.getItem('isLoggedIn');
-var loginID = sessionStorage.getItem('loginID');
-var expirationTime = sessionStorage.getItem('expirationTime');
-function freezeScreen() {
-    document.body.classList.add('freeze-scroll');
-}
-function unfreezeScreen() {
-    document.body.classList.remove('freeze-scroll');
-}
-if (!isLoggedIn || !loginID || !expirationTime || new Date().getTime() > parseInt(expirationTime)) {
-    document.getElementById("popupScreen").classList.add("active");
-    freezeScreen();
-}
-document.getElementById("closeButton").addEventListener("click", function () {
-    unfreezeScreen();
-    window.location.href = "https://www.enovators.in/echus-stellarum";
-});
-document.getElementById("popupScreen").addEventListener("click", function (event) {
-    if (event.target === this) {
-        unfreezeScreen();
-        window.location.href = "https://www.enovators.in/echus-stellarum";
-    }
-});
 document.getElementById("logoutButton").addEventListener("click", function () {
-    sessionStorage.removeItem('isLoggedIn');
-    sessionStorage.removeItem('loginID');
-    sessionStorage.removeItem('expirationTime');
-    unfreezeScreen();
     window.location.href = "https://www.enovators.in/echus-stellarum";
 });
 document.getElementById("logout").addEventListener("click", function () {
-    sessionStorage.removeItem('isLoggedIn');
-    sessionStorage.removeItem('loginID');
-    sessionStorage.removeItem('expirationTime');
-    unfreezeScreen();
     window.location.href = "https://www.enovators.in/echus-stellarum";
 });
-var now = new Date();
-var newExpirationTime = new Date(now.getTime() + 5 + 60 * 60 * 1000);
-sessionStorage.setItem('expirationTime', newExpirationTime.getTime());
