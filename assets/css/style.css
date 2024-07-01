@@ -3189,7 +3189,7 @@ form {
   color: #fff
 }
 .freeze-scroll {
-  overflow: hidden;
+  overflow: hidden!important;
 }
 .btn-main {
   font-family: Roboto,sans-serif;
