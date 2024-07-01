@@ -14,7 +14,7 @@ app.use(cors());
 app.use(express.static(path.join(__dirname)));
 
 const users = {
-    user1: 'password5',
+    user1: 'password5' ,
     user2: 'password2'
 };
 
