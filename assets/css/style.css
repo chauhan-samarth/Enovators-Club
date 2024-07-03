@@ -5277,7 +5277,7 @@ button.button-transparent:disabled {
         background-repeat: no-repeat
       }
       .main_wrapper--new-start .top_block_content {
-        background: url(/assets/images/favicon.png) 800px 180px / 400px 400px no-repeat;
+        background: url(/assets/images/favicon.webp) 800px 180px / 400px 400px no-repeat;
         padding-bottom: 30px;
         opacity: 1
       }
