@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-  const countdownDate = new Date("July 06, 2024 11:25:00").getTime();
+  const countdownDate = new Date("July 06, 2024 11:28:00").getTime();
   const startButton = document.getElementById('start-button');
   
   const countdownFunction = setInterval(function() {
