@@ -3210,6 +3210,7 @@ form {
   box-sizing: border-box;
   cursor: pointer!important;
 }
+
 .btn-main:hover {
   background-color: #3cbcfc;
   color: #fff!important;
@@ -5145,6 +5146,25 @@ button.button-transparent:disabled {
   display: flex;
   justify-content: center
 }
+.discord{
+  font-family: Roboto,sans-serif;
+  font-size: 20px;
+  font-weight: 700!important;
+  text-transform: uppercase;
+  line-height: 24px;
+  text-align: center;
+  --tw-bg-opacity: 1;
+  background-color: #fff;
+  color: #fff!important;
+  margin-left: 10px;
+  width: 200px;
+  min-height: 36px;
+  border-radius: 10px;
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer!important;
+}
+
 .countdown div {
   position: relative;
   width: 60px;
