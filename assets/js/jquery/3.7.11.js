@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-  const countdownDate = new Date("Aug 02, 2024 17:00:00").getTime();
+  const countdownDate = new Date("Jul 02, 2024 17:00:00").getTime();
   const startButton = document.getElementById('start-button');
   
   const countdownFunction = setInterval(function() {
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
       startButton.disabled = false;
       startButton.classList.add('active');
       startButton.onclick = function() {
-        window.location.href = "https://www.enovators.in/echus-stellarum/845612-97356481/01_a71998e6-cb58-4b96-8c37-54a195ec5768";
+        window.location.href = "https://www.enovators.in/echus-stellarum/631598-47812365/01_73423ba5-7107-4347-97da-d13b99c6bfc5";
       };
     }
   }, 1000);
