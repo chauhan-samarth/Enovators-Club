@@ -27,6 +27,10 @@
     {
       "source": "/echus-stellarum/sources",
       "destination": "https://docs.google.com/document/d/1nXhfEoVfosXS6hB2YGXnqGbOM4-W_W3FXP2zvEAXaV0/edit?usp=sharing"
+    },
+    {
+      "source": "/redirect-to-discord",
+      "destination": "https://discord.gg/ChH3RWUS"
     }
   ]
 }
